@@ -1,0 +1,101 @@
+@use "./base.scss";
+
+// ============================================================
+// 1C:ERP в Q-Commerce — Blueprint Style
+// ============================================================
+
+// --- Заголовки статей: акцентная левая полоса ---
+article h2 {
+  border-left: 3px solid var(--secondary);
+  padding-left: 0.75rem;
+  margin-top: 2.5rem;
+}
+
+// --- Mermaid диаграммы: убрать лишний отступ ---
+.mermaid {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+// --- Таблицы: чище ---
+article table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+article th {
+  background: var(--highlight);
+  color: var(--dark);
+  font-weight: 600;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  border-bottom: 2px solid var(--secondary);
+}
+
+article td {
+  padding: 0.45rem 0.75rem;
+  border-bottom: 1px solid var(--lightgray);
+  vertical-align: top;
+}
+
+article tr:last-child td {
+  border-bottom: none;
+}
+
+// --- Callouts: Blueprint-стиль ---
+.callout[data-callout="note"] {
+  --color: #0055BB;
+  --border: #0044AA;
+  --bg: rgba(0, 85, 187, 0.06);
+}
+
+.callout[data-callout="important"],
+.callout[data-callout="tip"] {
+  --color: #0077DD;
+  --border: #0066CC;
+  --bg: rgba(0, 119, 221, 0.06);
+}
+
+.callout[data-callout="warning"],
+.callout[data-callout="caution"] {
+  --color: #C85000;
+  --border: #B04400;
+  --bg: rgba(200, 80, 0, 0.06);
+}
+
+// --- Explorer: красивые названия недель ---
+.folder-title {
+  font-weight: 600;
+}
+
+// --- Навигационная панель в конце урока ---
+article > hr:last-of-type + p {
+  text-align: center;
+  padding: 0.75rem 0;
+  color: var(--gray);
+  font-size: 0.9rem;
+  border-top: 1px solid var(--lightgray);
+}
+
+// --- Блоки кода: чуть компактнее ---
+article pre {
+  font-size: 0.85rem;
+  border-radius: 6px;
+}
+
+// --- Executive Summary (blockquote в начале урока) ---
+article > blockquote:first-of-type {
+  border-left: 4px solid var(--secondary);
+  background: var(--highlight);
+  border-radius: 0 6px 6px 0;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+}
+
+// --- Ширина контента на десктопе ---
+@media (min-width: 1200px) {
+  .center {
+    max-width: 860px;
+  }
+}
