@@ -9,7 +9,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "ru-RU",
-    baseUrl: "localhost:8080",
+    baseUrl: "murad1986.github.io/1c-erp-quartz",
     ignorePatterns: [
       "_meta",
       "**/_meta",
