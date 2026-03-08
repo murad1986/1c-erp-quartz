@@ -9,7 +9,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "ru-RU",
-    baseUrl: "murad1986.github.io/1c-erp-quartz",
+    baseUrl: "edu-site-mu.vercel.app",
     ignorePatterns: [
       "_meta",
       "**/_meta",
