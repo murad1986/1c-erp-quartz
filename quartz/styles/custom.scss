@@ -100,37 +100,48 @@ article > blockquote:first-of-type {
   }
 }
 
-// --- Mermaid: исправление конфликта с base.scss ---
-// base.scss задаёт `p, text { color: var(--darkgray); fill: var(--darkgray) }`
-// Это перебивает color:#fff прописанный в style-командах диаграмм через наследование
-// Решение: для <p> и SVG text внутри Mermaid — использовать inherit (берём цвет из контейнера)
-.mermaid {
-  // HTML-лейблы в foreignObject: <p> должна наследовать color от Mermaid-контейнера
-  // Без этого base.scss `p { color: var(--darkgray) }` побеждает Mermaid inline styles
-  p {
-    color: inherit;
-    fill: inherit;
-    overflow-wrap: break-word;
-  }
-}
-
+// --- Mermaid: полупрозрачные фоны нод ---
+// Вместо борьбы с CSS cascade — делаем фоны полупрозрачными.
+// Тёмный fill смешивается со светлым фоном страницы (#F5F8FF),
+// результирующий цвет светлее → тёмный текст (#1a1a1a) читается.
 .mermaid svg {
-  // SVG text элементы: revert убирает base.scss `text { fill: var(--darkgray) }`,
-  // позволяя presentation attributes Mermaid (`fill="#fff"`) работать корректно
-  text {
-    fill: revert;
-    color: revert;
-  }
-
-  // Структурные стили (не перебивают цвета)
   .node rect,
   .node circle,
   .node ellipse,
-  .node polygon {
+  .node polygon,
+  .node path {
+    fill-opacity: 0.45 !important;
     stroke-width: 1.5px;
+  }
+
+  // Текст: принудительно тёмный (читается на полупрозрачном фоне)
+  text {
+    fill: var(--dark) !important;
+    font-weight: 500;
   }
 
   .edgePath .path {
     stroke-width: 1.5px;
+  }
+}
+
+// Подписи на рёбрах — светлый фон для читаемости
+.mermaid svg .edgeLabel {
+  background: rgba(245, 248, 255, 0.9);
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+// Тёмная тема: другая opacity и цвет текста
+[saved-theme="dark"] .mermaid svg {
+  .node rect,
+  .node circle,
+  .node ellipse,
+  .node polygon,
+  .node path {
+    fill-opacity: 0.55 !important;
+  }
+  text {
+    fill: var(--dark) !important;
   }
 }
