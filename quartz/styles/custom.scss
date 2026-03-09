@@ -100,11 +100,29 @@ article > blockquote:first-of-type {
   }
 }
 
-// --- Mermaid: базовые структурные стили (без оверрайда цветов нод) ---
-// Цвета нод/текста берутся из исходников диаграмм (style/classDef)
-// !important не используется, чтобы не перебивать color:#fff на тёмных нодах
+// --- Mermaid: исправление конфликта с base.scss ---
+// base.scss задаёт `p, text { color: var(--darkgray); fill: var(--darkgray) }`
+// Это перебивает color:#fff прописанный в style-командах диаграмм через наследование
+// Решение: для <p> и SVG text внутри Mermaid — использовать inherit (берём цвет из контейнера)
+.mermaid {
+  // HTML-лейблы в foreignObject: <p> должна наследовать color от Mermaid-контейнера
+  // Без этого base.scss `p { color: var(--darkgray) }` побеждает Mermaid inline styles
+  p {
+    color: inherit;
+    fill: inherit;
+    overflow-wrap: break-word;
+  }
+}
+
 .mermaid svg {
-  // Ноды без явного цвета — светлый фон по умолчанию
+  // SVG text элементы: revert убирает base.scss `text { fill: var(--darkgray) }`,
+  // позволяя presentation attributes Mermaid (`fill="#fff"`) работать корректно
+  text {
+    fill: revert;
+    color: revert;
+  }
+
+  // Структурные стили (не перебивают цвета)
   .node rect,
   .node circle,
   .node ellipse,
@@ -112,33 +130,7 @@ article > blockquote:first-of-type {
     stroke-width: 1.5px;
   }
 
-  // Текст без явного цвета — тёмный (для нод с явным color:#fff это не применится,
-  // т.к. Mermaid проставляет inline fill на SVG-тексте, который перебивает CSS без !important)
-  .node text,
-  .nodeLabel {
-    fill: #1a1a1a;
-  }
-
-  // Подписи на рёбрах
-  .edgeLabel {
-    color: #1a1a1a;
-    background: rgba(255,255,255,0.85);
-  }
-
-  // Стрелки
   .edgePath .path {
-    stroke-width: 1.5px;
-  }
-
-  // xychart: оси (обычно без инлайн-цвета)
-  .xAxis .tick text,
-  .yAxis .tick text,
-  .xyChart-axisTitle {
-    fill: #222;
-  }
-
-  // sequenceDiagram: фон акторов по умолчанию
-  .actor rect {
     stroke-width: 1.5px;
   }
 }
