@@ -39,9 +39,9 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.DesktopOnly(
       Component.Explorer({
-        title: "Программа курса",
+        title: "Курсы",
         folderClickBehavior: "link",
-        folderDefaultState: "open",
+        folderDefaultState: "collapsed",
         useSavedState: true,
         sortFn: (a, b) => {
           if (a.isFolder !== b.isFolder) return a.isFolder ? -1 : 1
@@ -113,9 +113,9 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.DesktopOnly(
       Component.Explorer({
-        title: "Программа курса",
+        title: "Курсы",
         folderClickBehavior: "link",
-        folderDefaultState: "open",
+        folderDefaultState: "collapsed",
         useSavedState: true,
         sortFn: (a, b) => {
           if (a.isFolder !== b.isFolder) return a.isFolder ? -1 : 1
@@ -123,6 +123,10 @@ export const defaultListPageLayout: PageLayout = {
             numeric: true,
             sensitivity: "base",
           })
+        },
+        filterFn: (node) => {
+          const hide = new Set(["tags"])
+          return !hide.has(node.displayName.toLowerCase())
         },
       })
     ),
