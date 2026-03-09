@@ -279,6 +279,33 @@ document.addEventListener("nav", async () => {
     })
 
     await mermaid.run({ nodes })
+
+    // Post-render fix: Mermaid measures text at full page width (no wrapping),
+    // but foreignObject is narrow → lines wrap → more height needed.
+    // Resize foreignObject height to match actual rendered scrollHeight.
+    for (const node of Array.from(nodes)) {
+      for (const fo of Array.from(node.querySelectorAll("foreignObject"))) {
+        const inner = fo.firstElementChild as HTMLElement | null
+        if (!inner) continue
+        const rendered = inner.scrollHeight
+        const declared = parseFloat(fo.getAttribute("height") ?? "0")
+        if (rendered > declared) {
+          const diff = rendered - declared
+          fo.setAttribute("height", String(rendered))
+          // shift foreignObject up so label stays centred in the node
+          const y = parseFloat(fo.getAttribute("y") ?? "0")
+          fo.setAttribute("y", String(y - diff / 2))
+          // grow the node rect by the same amount
+          const rect = fo.closest("g")?.querySelector("rect") as SVGRectElement | null
+          if (rect) {
+            const rh = parseFloat(rect.getAttribute("height") ?? "0")
+            rect.setAttribute("height", String(rh + diff))
+            const ry = parseFloat(rect.getAttribute("y") ?? "0")
+            rect.setAttribute("y", String(ry - diff / 2))
+          }
+        }
+      }
+    }
   }
 
   await renderMermaid()
