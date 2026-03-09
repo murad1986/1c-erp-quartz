@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "1C:ERP в Q-Commerce",
+    pageTitle: "Образовательная платформа",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -11,17 +11,21 @@ const config: QuartzConfig = {
     locale: "ru-RU",
     baseUrl: "edu-site-mu.vercel.app",
     ignorePatterns: [
-      "_meta",
-      "**/_meta",
+      "_meta", "**/_meta",
       "**/lesson_writer_agent.md",
       "**/promise_registry.md",
       "**/case_registry.md",
       "**/visual_prompts.md",
       "**/fact_check*",
-      ".obsidian",
-      "*.canvas",
-      "**/.DS_Store",
-      "README.md",
+      "**/*illustration_prompts*",
+      "**/ENRICHMENT_SUMMARY.md",
+      "**/methodology.md",
+      "**/CLAUDE.md",
+      "**/flashcards",
+      "**/reflections",
+      "**/visual_assets",
+      ".obsidian", "*.canvas", "**/.DS_Store",
+      "README.md", "**/README.md",
     ],
     defaultDateType: "modified",
     theme: {
