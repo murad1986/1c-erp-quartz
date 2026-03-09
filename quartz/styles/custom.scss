@@ -128,12 +128,14 @@ code.mermaid svg * {
   stroke-width: 1.5px;
 }
 
-// base.scss задаёт p { text-wrap: pretty; overflow-wrap: break-word } глобально.
-// Это сбивает расчёт высоты нод в Mermaid (текст переносится иначе чем Mermaid ожидает).
-// Сброс только для HTML-лейблов внутри foreignObject.
+// base.scss задаёт p { text-wrap: pretty; overflow-wrap: break-word } — это сбивает
+// расчёт размеров нод: Mermaid рассчитывает ширину только по <br/>, но браузер
+// дополнительно переносит по пробелам → текст не влезает в бокс.
+// white-space: nowrap запрещает перенос на пробелах; <br/> продолжает работать.
 .mermaid svg foreignObject p,
 .mermaid svg foreignObject span,
 .mermaid svg foreignObject div {
-  text-wrap: normal;
-  overflow-wrap: normal;
+  white-space: nowrap !important;
+  text-wrap: nowrap !important;
+  overflow-wrap: normal !important;
 }
