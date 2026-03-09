@@ -100,6 +100,13 @@ article > blockquote:first-of-type {
   }
 }
 
+// --- Mermaid: сброс наследуемого fill из base.scss ---
+// base.scss задаёт `text { fill: var(--darkgray) }` — SVG fill наследуется дочерними
+// элементами (rect, circle и др.), перебивая пастельные цвета нод. revert отменяет это.
+code.mermaid svg * {
+  fill: revert;
+}
+
 // --- Mermaid: минимальные структурные стили ---
 // Цвета заданы прямо в источниках диаграмм (пастельные fill + тёмный color:#1a1a1a)
 .mermaid svg {
