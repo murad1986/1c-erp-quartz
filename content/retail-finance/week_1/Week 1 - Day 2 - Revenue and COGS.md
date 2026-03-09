@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[retail_finance/README]]"
+course: "retail-finance"
 week: 1
 day: 2
 prerequisites: ["[[Week 1 - Day 1 - Intro to Retail Math]]"]
@@ -552,4 +552,4 @@ Tesco получает от поставщиков **коммерческие б
 
 ---
 
-← [[Week 1 - Day 1 - Intro to Retail Math\|День 1]] | [[retail_finance/README\|Оглавление]] | [[Week 1 - Day 3 - Gross Margin and Markup\|День 3]] →
+← [[Week 1 - Day 1 - Intro to Retail Math\|День 1]] | [Оглавление](/retail-finance/) | [[Week 1 - Day 3 - Gross Margin and Markup\|День 3]] →

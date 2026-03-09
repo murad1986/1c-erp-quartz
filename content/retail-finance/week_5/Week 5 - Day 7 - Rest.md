@@ -1,7 +1,7 @@
 ---
 type: lesson
-course: [[retail_finance/README]]
-prerequisites: "[[Week 5 - Day 6: Анализ P&L через призму TOC]]"
+course: "retail-finance"
+prerequisites: "[Анализ P&L через призму TOC](/retail-finance/week_5/Week 5 - Day 6 - PL Analysis TOC/)"
 week: 5
 day: 7
 ---
@@ -35,4 +35,4 @@ TOC Accounting пытается увеличить напор.
 На следующей, финальной неделе мы внедрим **DBM**. Это алгоритм, который скажет вам, сколько точно товара заказывать завтра, без всяких прогнозов. Магия. 🪄
 
 ## Следующие шаги
-- [[Week 6 - Day 1: Dynamic Buffer Management (DBM)]]
+- [Dynamic Buffer Management (DBM)](/retail-finance/week_6/Week 6 - Day 1 - DBM Dynamic Buffer Management/)

@@ -275,4 +275,4 @@ show_character_card(name, cls, hp, atk)
 
 ![Дерево навыков дня 2 — позиционные аргументы, именованные, по умолчанию, return tuple](day_2/day_2_skill_tree.png)
 
-← [День 1](/week_5/day_1) | [День 3 →](/week_5/day_3)
+← [День 1](/python/week_5/day_1/) | [День 3 →](/python/week_5/day_3/)

@@ -1,7 +1,7 @@
 ---
 type: lesson
-course: [[retail_finance/README]]
-prerequisites: "[[Week 4 - Day 5: Презентация проекта (симуляция)]]"
+course: "retail-finance"
+prerequisites: "[Презентация проекта (симуляция)](/retail-finance/week_4/Week 4 - Day 5 - Project Presentation/)"
 week: 4
 day: 6
 ---
@@ -44,4 +44,4 @@ day: 6
 *   <3: Перечитайте конспекты!
 
 ## Следующие шаги
-- [[Week 4 - Day 7: Выпускной (Часть 1)]]
+- [Выпускной (Часть 1)](/retail-finance/week_4/Week 4 - Day 7 - Graduation Part 1/)

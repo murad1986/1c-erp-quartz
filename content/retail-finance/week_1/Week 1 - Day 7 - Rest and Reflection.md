@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[retail_finance/README]]"
+course: "retail-finance"
 week: 1
 day: 7
 prerequisites: ["[[Week 1 - Day 6 - Practice Build PL]]"]
@@ -720,4 +720,4 @@ P&L — это **кино**: фильм о том, что происходило
 
 ---
 
-← [[Week 1 - Day 6 - Practice Build PL\|День 6]] | [[retail_finance/README\|Оглавление]] | [[Week 2 - Day 1 - Balance Sheet\|День 1 (Неделя 2)]] →
+← [[Week 1 - Day 6 - Practice Build PL\|День 6]] | [Оглавление](/retail-finance/) | [[Week 2 - Day 1 - Balance Sheet\|День 1 (Неделя 2)]] →

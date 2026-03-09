@@ -396,4 +396,4 @@ show_leaderboard(guild, "kills", top_n=3)
 
 ![Дерево навыков дня 4 — sorted() с key=, lambda, min/max с key=](day_4/day_4_skill_tree.png)
 
-← [День 3 — Рекурсия](day_3.md) | [День 5 — import и модули →](day_5.md)
+← [День 3 — Рекурсия](/python/week_5/day_3/) | [День 5 — import и модули →](/python/week_5/day_5/)

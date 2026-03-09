@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 4
 day: 7
 title: "Лонгрид: как устроены сейвы в Minecraft, Hollow Knight и Stardew Valley"
 concepts: []
-prerequisites: "[\"[[week_4/day_6]]\"]"
+prerequisites: "[\"[week_4/day_6](/python/week_4/day_6/)\"]"
 tags: [python, файлы, json, сейвы, игры, лонгрид]
 status: draft
 ---
@@ -482,4 +482,4 @@ def load_with_checksum(filename):
 
 ---
 
-← [Day 6 — Практика](day_6.md) | [Week 5, Day 1 — Функции →](../week_5/day_1.md)
+← [Day 6 — Практика](/python/week_4/day_6/) | [Week 5, Day 1 — Функции →](/python/week_5/day_1/)

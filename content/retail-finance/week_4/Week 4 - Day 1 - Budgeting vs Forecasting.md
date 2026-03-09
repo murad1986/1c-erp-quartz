@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: [[retail_finance/README]]
+course: "retail-finance"
 prerequisites: "[[Week 3 - Day 7: Отдых и рефлексия]]"
 week: 4
 day: 1
@@ -42,4 +42,4 @@ day: 1
 3.  Какие расходы нужно срочно порезать, чтобы сохранить прибыль, если продажи упадут на $17k? (Смотри Opex).
 
 ## Следующие шаги
-- [[Week 4 - Day 2: Анализ чувствительности и сценарное планирование]]
+- [Анализ чувствительности и сценарное планирование](/retail-finance/week_4/Week 4 - Day 2 - Sensitivity Analysis/)

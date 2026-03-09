@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[value_stream_mapping/README]]"
+course: "vsm"
 week: 1
 day: 4
 prerequisites: ["[[Week 1 - Day 1 - Intro to Lean and VSM]]", "[[Week 1 - Day 2 - The 8 Wastes]]", "[[Week 1 - Day 3 - Mura and Muri]]"]
@@ -1000,4 +1000,4 @@ Sprint 6: VA Ratio = 21.5% (target reached! 🎯)
 
 ---
 
-← [[Week 1 - Day 3 - Mura and Muri\|День 3]] | [[value_stream_mapping/README\|Оглавление]] | [[Week 1 - Day 5 - Gemba Walk\|День 5]] →
+← [[Week 1 - Day 3 - Mura and Muri\|День 3]] | [Оглавление](/vsm/) | [[Week 1 - Day 5 - Gemba Walk\|День 5]] →

@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[retail_finance/README]]"
+course: "retail-finance"
 week: 1
 day: 5
 prerequisites: ["[[Week 1 - Day 4 - OPEX and EBITDA]]"]
@@ -577,4 +577,4 @@ Net Income — это бухгалтерская прибыль, которая 
 
 ---
 
-← [[Week 1 - Day 4 - OPEX and EBITDA\|День 4]] | [[retail_finance/README\|Оглавление]] | [[Week 1 - Day 6 - Practice Build PL\|День 6]] →
+← [[Week 1 - Day 4 - OPEX and EBITDA\|День 4]] | [Оглавление](/retail-finance/) | [[Week 1 - Day 6 - Practice Build PL\|День 6]] →

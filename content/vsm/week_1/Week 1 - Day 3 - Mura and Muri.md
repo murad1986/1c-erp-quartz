@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[value_stream_mapping/README]]"
+course: "vsm"
 week: 1
 day: 3
 prerequisites: ["[[Week 1 - Day 1 - Intro to Lean and VSM]]", "[[Week 1 - Day 2 - The 8 Wastes]]"]
@@ -1239,4 +1239,4 @@ Boeing видит огромный backlog заказов — **4,000+ само�
 
 ---
 
-← [[Week 1 - Day 2 - The 8 Wastes\|День 2]] | [[value_stream_mapping/README\|Оглавление]] | [[Week 1 - Day 4 - Value vs Non-Value\|День 4]] →
+← [[Week 1 - Day 2 - The 8 Wastes\|День 2]] | [Оглавление](/vsm/) | [[Week 1 - Day 4 - Value vs Non-Value\|День 4]] →

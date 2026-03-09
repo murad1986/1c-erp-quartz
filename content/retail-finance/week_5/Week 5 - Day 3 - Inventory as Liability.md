@@ -1,7 +1,7 @@
 ---
 type: lesson
-course: [[retail_finance/README]]
-prerequisites: "[[Week 5 - Day 2: Метрики TOC: T (Проход), I (Вложения), OE (Опер. расходы)]]"
+course: "retail-finance"
+prerequisites: "[Метрики TOC: T (Проход), I (Вложения), OE (Опер. расходы)](/retail-finance/week_5/Week 5 - Day 2 - TOC Metrics T I OE/)"
 week: 5
 day: 3
 ---
@@ -48,4 +48,4 @@ $$ Inventory = Throughput \times Flow Time $$
 Что выгоднее по итогу года? (Спойлер: Вариант Б почти всегда побеждает в Fashion).
 
 ## Следующие шаги
-- [[Week 5 - Day 4: Эффект Хлыста (Bullwhip Effect) в цепи поставок]]
+- [Эффект Хлыста (Bullwhip Effect) в цепи поставок](/retail-finance/week_5/Week 5 - Day 4 - Bullwhip Effect/)

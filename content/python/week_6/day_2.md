@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 6
 day: 2
 title: "except по типу, else и finally"
 concepts: [except конкретного типа, несколько except, else блок, finally блок]
-prerequisites: "[\"[[week_6/day_1]]\"]"
+prerequisites: "[\"[week_6/day_1](/python/week_6/day_1/)\"]"
 tags: [python, ошибки, except, else, finally]
 status: draft
 ---
@@ -424,4 +424,4 @@ STYLE — STRICT:
 - MOOD: Hollow Knight's City of Tears — contemplative, beautiful, mysterious. NOT aggressive, NOT cyberpunk.
 -->
 
-← [[week_6/day_1|День 6.1]] | [[week_6/day_3|День 6.3 →]]
+← [День 6.1](/python/week_6/day_1/) | [День 6.3 →](/python/week_6/day_3/)

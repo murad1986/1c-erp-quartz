@@ -1,7 +1,7 @@
 ---
 type: lesson
-course: [[retail_finance/README]]
-prerequisites: "[[Week 4 - Day 2: Анализ чувствительности и сценарное планирование]]"
+course: "retail-finance"
+prerequisites: "[Анализ чувствительности и сценарное планирование](/retail-finance/week_4/Week 4 - Day 2 - Sensitivity Analysis/)"
 week: 4
 day: 3
 ---
@@ -55,4 +55,4 @@ day: 3
 *(Личное мнение: Огурчик — это дойная корова для дивидендов. CyberFood — лотерейный билет).*
 
 ## Следующие шаги
-- [[Week 4 - Day 4: Финальный Проект: Стратегия оздоровления сети]]
+- [Финальный Проект: Стратегия оздоровления сети](/retail-finance/week_4/Week 4 - Day 4 - Final Project Strategy/)

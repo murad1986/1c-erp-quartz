@@ -1,7 +1,7 @@
 ---
 type: lesson
-course: [[retail_finance/README]]
-prerequisites: "[[Week 6 - Day 1: DBM (Dynamic Buffer Management)]]"
+course: "retail-finance"
+prerequisites: "[DBM (Dynamic Buffer Management)](/retail-finance/week_6/Week 6 - Day 1 - DBM Dynamic Buffer Management/)"
 week: 6
 day: 2
 ---
@@ -42,4 +42,4 @@ day: 2
 *   **Pull**: Оставили 800 курток на складе в Москве. Наступил холод — быстро отправили туда, где холодно.
 
 ## Следующие шаги
-- [[Week 6 - Day 3: Управление Ассортиментом: MTA vs MTO]]
+- [Управление Ассортиментом: MTA vs MTO](/retail-finance/week_6/Week 6 - Day 3 - MTA vs MTO/)

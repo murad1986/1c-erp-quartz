@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[retail_finance/README]]"
+course: "retail-finance"
 week: 3
 day: 7
 prerequisites: "[\"[[Week 3 - Day 6 - Case Keep or Close|Day 6: Кейс «Keep or Close»]]\"]"
@@ -805,4 +805,4 @@ c) McDonald's сокращает расходы на персонал через
 
 ---
 
-← [[Week 3 - Day 6 - Case Keep or Close|День 6]] | [[retail_finance/README|Оглавление]] | [[retail_finance/README|Курс Завершён]] →
+← [[Week 3 - Day 6 - Case Keep or Close|День 6]] | [Оглавление](/retail-finance/) | [Курс Завершён](/retail-finance/) →

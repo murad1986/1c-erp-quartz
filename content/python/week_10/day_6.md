@@ -1,17 +1,17 @@
 ---
 type: practice
-course: "[[python_basics/README]]"
+course: "python"
 week: 10
 day: 6
 title: "День 6 — Финальная практика: твой квест, твои правила"
-prerequisites: "[\"[[week_10/day_5]]\"]"
+prerequisites: "[\"[week_10/day_5](/python/week_10/day_5/)\"]"
 tags: [python, текстовый-квест, практика, финал]
 status: draft
 ---
 
 # День 6 — Финальная практика
 
-← [День 5 — Горизонты](day_5.md) | [День 7 — Лонгрид →](day_7.md)
+← [День 5 — Горизонты](/python/week_10/day_5/) | [День 7 — Лонгрид →](/python/week_10/day_7/)
 
 ---
 
@@ -198,4 +198,4 @@ def check_achievements(player, rooms):
 
 **Ты сделал это. Добро пожаловать в разработку.**
 
-← [День 5 — Горизонты](day_5.md) | [День 7 — Лонгрид →](day_7.md)
+← [День 5 — Горизонты](/python/week_10/day_5/) | [День 7 — Лонгрид →](/python/week_10/day_7/)

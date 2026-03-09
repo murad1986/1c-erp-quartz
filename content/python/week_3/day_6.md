@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 3
 day: 6
 title: "Практика — Лут-система для RPG"
 concepts: []
-prerequisites: "[\"[[week_3/day_5]]\"]"
+prerequisites: "[\"[week_3/day_5](/python/week_3/day_5/)\"]"
 tags: [python, практика, словари, множества, проект]
 status: draft
 ---
@@ -211,4 +211,4 @@ def enemy_drop(enemy_type, loot_table):
 
 ---
 
-← [Day 5 — Структуры вместе](day_5.md) | [Day 7 — Лонгрид →](day_7.md)
+← [Day 5 — Структуры вместе](/python/week_3/day_5/) | [Day 7 — Лонгрид →](/python/week_3/day_7/)

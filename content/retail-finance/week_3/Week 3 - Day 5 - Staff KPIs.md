@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[retail_finance/README]]"
+course: "retail-finance"
 week: 3
 day: 5
 prerequisites: "[\"[[Week 3 - Day 4 - Capex vs Opex|Day 4: Capex против Opex]]\"]"
@@ -504,4 +504,4 @@ Amazon в своей компании иллюстрирует оба полюс
 
 ---
 
-← [[Week 3 - Day 4 - Capex vs Opex|День 4]] | [[retail_finance/README|Оглавление]] | [[Week 3 - Day 6 - Case Keep or Close|День 6]] →
+← [[Week 3 - Day 4 - Capex vs Opex|День 4]] | [Оглавление](/retail-finance/) | [[Week 3 - Day 6 - Case Keep or Close|День 6]] →

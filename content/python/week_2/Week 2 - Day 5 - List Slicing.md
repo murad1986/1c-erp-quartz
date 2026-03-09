@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 2
 day: 5
 title: "Срезы списков и копирование"
@@ -540,4 +540,4 @@ print(f"Оригинал не изменён: {scores}")
 
 ---
 
-← [[Week 2 - Day 4 - Sorting\|День 4]] | [[python_basics/README\|Оглавление]] | [[Week 2 - Day 6 - Practice Leaderboard\|День 6]] →
+← [[Week 2 - Day 4 - Sorting\|День 4]] | [Оглавление](/python/) | [[Week 2 - Day 6 - Practice Leaderboard\|День 6]] →

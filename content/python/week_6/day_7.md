@@ -1,11 +1,11 @@
 ---
 type: longread
-course: "[[python_basics/README]]"
+course: "python"
 week: 6
 day: 7
 title: "Лонгрид: Когда программа молчит об ошибках"
 concepts: []
-prerequisites: "[\"[[week_6/day_6]]\"]"
+prerequisites: "[\"[week_6/day_6](/python/week_6/day_6/)\"]"
 tags: [python, ошибки, история, безопасность, лонгрид]
 status: draft
 ---
@@ -525,4 +525,4 @@ Stack Overflow публично описал свою аварию и ввёл �
 
 ---
 
-← [[week_6/day_6|День 6]] | [[week_7/day_1|Неделя 7 →]]
+← [День 6](/python/week_6/day_6/) | [Неделя 7 →](/python/week_7/day_1/)

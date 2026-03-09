@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 6
 day: 4
 title: "Паттерны надёжного кода"
 concepts: [safe_load паттерн, логирование ошибок, try/except в цикле, цепочка вызовов]
-prerequisites: "[\"[[week_6/day_3]]\"]"
+prerequisites: "[\"[week_6/day_3](/python/week_6/day_3/)\"]"
 tags: [python, ошибки, паттерны, logging, цикл]
 status: draft
 ---
@@ -452,4 +452,4 @@ STYLE — STRICT:
 - MOOD: Hollow Knight's City of Tears — contemplative, beautiful, mysterious. NOT aggressive, NOT cyberpunk.
 -->
 
-← [[week_6/day_3|День 3]] | [[week_6/day_5|День 5 →]]
+← [День 3](/python/week_6/day_3/) | [День 5 →](/python/week_6/day_5/)

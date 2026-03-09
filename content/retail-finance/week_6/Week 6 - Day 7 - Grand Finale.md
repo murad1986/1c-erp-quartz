@@ -1,7 +1,7 @@
 ---
 type: lesson
-course: [[retail_finance/README]]
-prerequisites: "[[Week 6 - Day 6: Финальный Экзамен курса (TOC Edition)]]"
+course: "retail-finance"
+prerequisites: "[Финальный Экзамен курса (TOC Edition)](/retail-finance/week_6/Week 6 - Day 6 - Final TOC Exam/)"
 week: 6
 day: 7
 ---

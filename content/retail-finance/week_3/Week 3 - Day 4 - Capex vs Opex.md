@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[retail_finance/README]]"
+course: "retail-finance"
 week: 3
 day: 4
 prerequisites: "[\"[[Week 3 - Day 3 - 4-Wall Economics|Day 3: Экономика Четырёх Стен]]\"]"
@@ -497,4 +497,4 @@ IKEA строит «дивидендный» Capex: каждый магазин 
 
 ---
 
-← [[Week 3 - Day 3 - 4-Wall Economics|День 3]] | [[retail_finance/README|Оглавление]] | [[Week 3 - Day 5 - Staff KPIs|День 5]] →
+← [[Week 3 - Day 3 - 4-Wall Economics|День 3]] | [Оглавление](/retail-finance/) | [[Week 3 - Day 5 - Staff KPIs|День 5]] →

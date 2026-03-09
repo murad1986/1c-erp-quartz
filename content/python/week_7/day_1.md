@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 7
 day: 1
 title: "class и __init__ — создаём объекты"
@@ -515,4 +515,4 @@ STYLE — STRICT:
 - MOOD: Hollow Knight's City of Tears — contemplative, beautiful, mysterious. NOT aggressive, NOT cyberpunk.
 -->
 
-← [Week 6 — Практика](../week_6/day_6.md) | [День 2 — Методы →](day_2.md)
+← [Week 6 — Практика](/python/week_6/day_6/) | [День 2 — Методы →](/python/week_7/day_2/)

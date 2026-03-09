@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 2
 day: 2
 title: "Добавление и удаление элементов"
@@ -601,4 +601,4 @@ print(f"Остаток лута: {loot}")
 
 ---
 
-← [[Week 2 - Day 1 - List Basics\|День 1]] | [[python_basics/README\|Оглавление]] | [[Week 2 - Day 3 - List Iteration\|День 3]] →
+← [[Week 2 - Day 1 - List Basics\|День 1]] | [Оглавление](/python/) | [[Week 2 - Day 3 - List Iteration\|День 3]] →

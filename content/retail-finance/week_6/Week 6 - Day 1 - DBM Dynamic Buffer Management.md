@@ -1,7 +1,7 @@
 ---
 type: lesson
-course: [[retail_finance/README]]
-prerequisites: "[[Week 5 - Day 7: Отдых и рефлексия]]"
+course: "retail-finance"
+prerequisites: "[Отдых и рефлексия](/retail-finance/week_5/Week 5 - Day 7 - Rest/)"
 week: 6
 day: 1
 ---
@@ -54,4 +54,4 @@ graph TD
 2.  Если мы просидим в Зеленой зоне еще пару дней, алгоритм скажет: "Спрос вырос! Новый Буфер = 120 шт".
 
 ## Следующие шаги
-- [[Week 6 - Day 2: Пополнение по потребности (Pull Replenishment)]]
+- [Пополнение по потребности (Pull Replenishment)](/retail-finance/week_6/Week 6 - Day 2 - Pull Replenishment/)

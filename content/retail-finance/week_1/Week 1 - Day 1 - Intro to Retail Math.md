@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[retail_finance/README]]"
+course: "retail-finance"
 week: 1
 day: 1
 prerequisites: []
@@ -580,4 +580,4 @@ P&L — это не фотография. Это **картина**, напис�
 
 ---
 
-[[retail_finance/README\|Оглавление]] | [[Week 1 - Day 2 - Revenue and COGS\|День 2]] →
+[Оглавление](/retail-finance/) | [[Week 1 - Day 2 - Revenue and COGS\|День 2]] →

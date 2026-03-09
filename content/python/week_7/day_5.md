@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 7
 day: 5
 title: "Магические методы — говорим с Python на его языке"
 concepts: [__str__, __len__, __eq__, __repr__]
-prerequisites: "[\"[[week_7/day_4]]\"]"
+prerequisites: "[\"[week_7/day_4](/python/week_7/day_4/)\"]"
 tags: [python, ооп, классы, магические методы, dunder методы]
 status: draft
 ---
@@ -758,4 +758,4 @@ STYLE — STRICT:
 - MOOD: Hollow Knight's City of Tears — contemplative, beautiful, mysterious. NOT aggressive, NOT cyberpunk.
 -->
 
-← [Day 4 — Инкапсуляция](day_4.md) | [Day 6 — Практика →](day_6.md)
+← [Day 4 — Инкапсуляция](/python/week_7/day_4/) | [Day 6 — Практика →](/python/week_7/day_6/)

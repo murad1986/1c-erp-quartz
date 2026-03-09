@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[retail_finance/README]]"
+course: "retail-finance"
 week: 2
 day: 2
 prerequisites: ["[[Week 2 - Day 1 - Balance Sheet]]"]
@@ -527,4 +527,4 @@ Inventory на Balance Sheet учтён по **себестоимости** (Cos
 
 ---
 
-← [[Week 2 - Day 1 - Balance Sheet\|День 1]] | [[retail_finance/README\|Оглавление]] | [[Week 2 - Day 3 - OTB and GMROI\|День 3]] →
+← [[Week 2 - Day 1 - Balance Sheet\|День 1]] | [Оглавление](/retail-finance/) | [[Week 2 - Day 3 - OTB and GMROI\|День 3]] →

@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[retail_finance/README]]"
+course: "retail-finance"
 week: 1
 day: 3
 prerequisites: ["[[Week 1 - Day 2 - Revenue and COGS]]"]
@@ -415,4 +415,4 @@ $$ \text{Markup} = \frac{0.67}{1 - 0.67} = 203\% $$
 
 ---
 
-← [[Week 1 - Day 2 - Revenue and COGS\|День 2]] | [[retail_finance/README\|Оглавление]] | [[Week 1 - Day 4 - OPEX and EBITDA\|День 4]] →
+← [[Week 1 - Day 2 - Revenue and COGS\|День 2]] | [Оглавление](/retail-finance/) | [[Week 1 - Day 4 - OPEX and EBITDA\|День 4]] →

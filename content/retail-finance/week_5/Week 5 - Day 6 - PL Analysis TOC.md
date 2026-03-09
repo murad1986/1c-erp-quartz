@@ -1,7 +1,7 @@
 ---
 type: lesson
-course: [[retail_finance/README]]
-prerequisites: "[[Week 5 - Day 5: Дилемма ритейлера: Держать много vs Держать мало]]"
+course: "retail-finance"
+prerequisites: "[Дилемма ритейлера: Держать много vs Держать мало](/retail-finance/week_5/Week 5 - Day 5 - Retailer Dilemma Cloud/)"
 week: 5
 day: 6
 ---
@@ -48,4 +48,4 @@ Sales - TVC (Только сырье/Товар) = **Throughput**.
 Если магазин покрывает TVC (стоимость товара) и приносит хоть какой-то Throughput выше своих прямых расходов — он полезен системе.
 
 ## Следующие шаги
-- [[Week 5 - Day 7: Отдых]]
+- [Отдых](/retail-finance/week_5/Week 5 - Day 7 - Rest/)

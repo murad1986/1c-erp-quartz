@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 2
 day: 1
 title: "Списки: создание и доступ по индексу"
@@ -596,4 +596,4 @@ print(f"Чемпион: {names[0]} с {scores[0]} очками!")
 
 ---
 
-← [[Week 1 - Day 7 - Rest\|День 7 Нед.1]] | [[python_basics/README\|Оглавление]] | [[Week 2 - Day 2 - List Modification\|День 2]] →
+← [День 7 Нед.1](/python/week_1/Week%201%20-%20Day%207%20-%20Rest/) | [Оглавление](/python/) | [[Week 2 - Day 2 - List Modification\|День 2]] →

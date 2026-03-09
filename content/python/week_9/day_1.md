@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 9
 day: 1
 title: "Архитектура квеста — комнаты и игрок"
 concepts: [класс Room, класс Player, игровой цикл, команды как строки]
-prerequisites: "[\"[[week_8/day_7]]\"]"
+prerequisites: "[\"[week_8/day_7](/python/week_8/day_7/)\"]"
 tags: [python, текстовый-квест, ооп, проект]
 status: draft
 ---
@@ -374,4 +374,4 @@ explanation: Правильно! Когда мы храним id, мы созд�
 
 ---
 
-← [Week 8 Practice](../week_8/day_6.md) | [Day 2 — Карта →](day_2.md)
+← [Week 8 Practice](/python/week_8/day_6/) | [Day 2 — Карта →](/python/week_9/day_2/)

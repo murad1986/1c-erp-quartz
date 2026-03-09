@@ -1,17 +1,17 @@
 ---
 type: longread
-course: "[[python_basics/README]]"
+course: "python"
 week: 9
 day: 7
 title: "День 7 — От Zork до Dwarf Fortress: история текстовых игр"
-prerequisites: "[\"[[week_9/day_6]]\"]"
+prerequisites: "[\"[week_9/day_6](/python/week_9/day_6/)\"]"
 tags: [python, текстовый-квест, история, лонгрид]
 status: draft
 ---
 
 # День 7 — От Zork до Dwarf Fortress
 
-← [День 6 — Практика](day_6.md) | [Week 10 →](../week_10/day_1.md)
+← [День 6 — Практика](/python/week_9/day_6/) | [Week 10 →](/python/week_10/day_1/)
 
 ---
 
@@ -189,4 +189,4 @@ Colossal Cave Adventure существует до сих пор. В 2017 год�
 
 ---
 
-← [День 6 — Практика](day_6.md) | [Week 10 →](../week_10/day_1.md)
+← [День 6 — Практика](/python/week_9/day_6/) | [Week 10 →](/python/week_10/day_1/)

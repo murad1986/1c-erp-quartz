@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[retail_finance/README]]"
+course: "retail-finance"
 week: 3
 day: 2
 prerequisites: "[\"[[Week 3 - Day 1 - LFL analysis|День 1: LFL Анализ]]\"]"
@@ -322,4 +322,4 @@ ARPU (Average Revenue Per User) — средний доход в период (�
 
 ---
 
-← [[Week 3 - Day 1 - LFL analysis|День 1]] | [[retail_finance/README|Оглавление]] | [[Week 3 - Day 3 - 4-Wall Economics|День 3]] →
+← [[Week 3 - Day 1 - LFL analysis|День 1]] | [Оглавление](/retail-finance/) | [[Week 3 - Day 3 - 4-Wall Economics|День 3]] →

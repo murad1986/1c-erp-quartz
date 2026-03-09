@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 2
 day: 6
 title: "Практикум: таблица рекордов RPG"
@@ -433,4 +433,4 @@ while True:
 
 ---
 
-← [[Week 2 - Day 5 - List Slicing\|День 5]] | [[python_basics/README\|Оглавление]] | [[Week 2 - Day 7 - Rest\|День 7]] →
+← [[Week 2 - Day 5 - List Slicing\|День 5]] | [Оглавление](/python/) | [День 7](/python/week_2/Week%202%20-%20Day%207%20-%20Rest/) →

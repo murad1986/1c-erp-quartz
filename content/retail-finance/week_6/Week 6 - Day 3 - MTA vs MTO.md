@@ -1,7 +1,7 @@
 ---
 type: lesson
-course: [[retail_finance/README]]
-prerequisites: "[[Week 6 - Day 2: Пополнение по потребности (Pull Replenishment)]]"
+course: "retail-finance"
+prerequisites: "[Пополнение по потребности (Pull Replenishment)](/retail-finance/week_6/Week 6 - Day 2 - Pull Replenishment/)"
 week: 6
 day: 3
 ---
@@ -37,4 +37,4 @@ day: 3
 2.  **Монография про размножение жуков**: Спрос 1 раз в год. (MTA или MTO?) -> MTO. "Можем привезти за 3 дня". Не занимайте полку!
 
 ## Следующие шаги
-- [[Week 6 - Day 4: Предложение мафии (Marketing Mafia Offer)]]
+- [Предложение мафии (Marketing Mafia Offer)](/retail-finance/week_6/Week 6 - Day 4 - Mafia Offer/)

@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 8
 day: 2
 title: "Линейный и бинарный поиск"
 concepts: [линейный поиск O(n), бинарный поиск O(log n), условие отсортированности, bisect]
-prerequisites: "[\"[[week_8/day_1]]\"]"
+prerequisites: "[\"[week_8/day_1](/python/week_8/day_1/)\"]"
 tags: [python, алгоритмы, поиск, бинарный поиск, bisect]
 status: draft
 ---
@@ -592,4 +592,4 @@ STYLE — STRICT:
 - MOOD: Hollow Knight's City of Tears — contemplative, beautiful, mysterious. NOT aggressive, NOT cyberpunk.
 -->
 
-← [Day 1 — Сложность алгоритмов](day_1.md) | [Day 3 — Сортировка →](day_3.md)
+← [Day 1 — Сложность алгоритмов](/python/week_8/day_1/) | [Day 3 — Сортировка →](/python/week_8/day_3/)

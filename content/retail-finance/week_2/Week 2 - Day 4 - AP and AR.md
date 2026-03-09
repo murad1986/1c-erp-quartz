@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[retail_finance/README]]"
+course: "retail-finance"
 week: 2
 day: 4
 prerequisites: ["[[Week 2 - Day 3 - OTB and GMROI]]"]
@@ -452,4 +452,4 @@ Bad Debt — дебиторка, которая **никогда** не буде
 
 ---
 
-← [[Week 2 - Day 3 - OTB and GMROI\|День 3]] | [[retail_finance/README\|Оглавление]] | [[Week 2 - Day 5 - Cash Conversion Cycle\|День 5]] →
+← [[Week 2 - Day 3 - OTB and GMROI\|День 3]] | [Оглавление](/retail-finance/) | [[Week 2 - Day 5 - Cash Conversion Cycle\|День 5]] →

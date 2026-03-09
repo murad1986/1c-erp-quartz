@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[retail_finance/README]]"
+course: "retail-finance"
 week: 3
 day: 6
 prerequisites: "[\"[[Week 3 - Day 5 - Staff KPIs|Day 5: Люди и KPI]]\"]"
@@ -499,4 +499,4 @@ Sears Holdings (Sears + Kmart) — возможно, лучший учебный
 
 ---
 
-← [[Week 3 - Day 5 - Staff KPIs|День 5]] | [[retail_finance/README|Оглавление]] | [[Week 3 - Day 7 - Rest|День 7]] →
+← [[Week 3 - Day 5 - Staff KPIs|День 5]] | [Оглавление](/retail-finance/) | [[Week 3 - Day 7 - Rest|День 7]] →

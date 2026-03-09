@@ -1,7 +1,7 @@
 ---
 type: lesson
-course: [[retail_finance/README]]
-prerequisites: "[[Week 4 - Day 7: Выпускной (Часть 1)]]"
+course: "retail-finance"
+prerequisites: "[Выпускной (Часть 1)](/retail-finance/week_4/Week 4 - Day 7 - Graduation Part 1/)"
 week: 5
 day: 1
 ---
@@ -53,4 +53,4 @@ $$ Profit = Throughput - Operating Expense $$
 **Throughput World**: "Бросай тряпку! Иди на кассу помогать упаковывать! Увеличь проход (Throughput) кассы!"
 
 ## Следующие шаги
-- [[Week 5 - Day 2: Метрики TOC: T (Проход), I (Вложения), OE (Опер. расходы)]]
+- [Метрики TOC: T (Проход), I (Вложения), OE (Опер. расходы)](/retail-finance/week_5/Week 5 - Day 2 - TOC Metrics T I OE/)

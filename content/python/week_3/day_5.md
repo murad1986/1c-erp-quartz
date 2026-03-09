@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 3
 day: 5
 title: "Структуры вместе — dict, list, set в одной программе"
 concepts: [dict+list+set комбинирование, dict.copy() shallow copy, когда что выбирать]
-prerequisites: "[\"[[week_3/day_4]]\"]"
+prerequisites: "[\"[week_3/day_4](/python/week_3/day_4/)\"]"
 tags: [python, словари, списки, множества, структуры-данных]
 status: draft
 ---
@@ -432,4 +432,4 @@ for item in character["backpack"]:
 
 ---
 
-← [Day 4 — Множества](day_4.md) | [Day 6 — Практика →](day_6.md)
+← [Day 4 — Множества](/python/week_3/day_4/) | [Day 6 — Практика →](/python/week_3/day_6/)

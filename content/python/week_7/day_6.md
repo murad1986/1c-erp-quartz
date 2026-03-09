@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 7
 day: 6
 title: "Практика — система врагов RPG"
 concepts: []
-prerequisites: "[\"[[week_7/day_5]]\"]"
+prerequisites: "[\"[week_7/day_5](/python/week_7/day_5/)\"]"
 tags: [python, ооп, практика, классы, наследование, инкапсуляция]
 status: draft
 ---
@@ -589,4 +589,4 @@ Inventory
 
 ---
 
-← [Day 5 — Магические методы](day_5.md) | [Day 7 — Лонгрид →](day_7.md)
+← [Day 5 — Магические методы](/python/week_7/day_5/) | [Day 7 — Лонгрид →](/python/week_7/day_7/)

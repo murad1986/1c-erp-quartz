@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 7
 day: 3
 title: "Наследование — класс от класса"
 concepts: [наследование, super().__init__(), переопределение метода, isinstance()]
-prerequisites: "[\"[[week_7/day_2]]\"]"
+prerequisites: "[\"[week_7/day_2](/python/week_7/day_2/)\"]"
 tags: [python, ооп, наследование, super, isinstance, полиморфизм]
 status: draft
 ---
@@ -623,4 +623,4 @@ STYLE — STRICT:
 - MOOD: Hollow Knight's City of Tears — contemplative, beautiful, mysterious. NOT aggressive, NOT cyberpunk.
 -->
 
-← [День 2 — Методы](day_2.md) | [День 4 →](day_4.md)
+← [День 2 — Методы](/python/week_7/day_2/) | [День 4 →](/python/week_7/day_4/)

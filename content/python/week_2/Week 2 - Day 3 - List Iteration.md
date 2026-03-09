@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 2
 day: 3
 title: "Перебор списков: for и enumerate"
@@ -587,4 +587,4 @@ for i, name in enumerate(names, start=1):
 
 ---
 
-← [[Week 2 - Day 2 - List Modification\|День 2]] | [[python_basics/README\|Оглавление]] | [[Week 2 - Day 4 - Sorting\|День 4]] →
+← [[Week 2 - Day 2 - List Modification\|День 2]] | [Оглавление](/python/) | [[Week 2 - Day 4 - Sorting\|День 4]] →

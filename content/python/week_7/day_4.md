@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 7
 day: 4
 title: "Инкапсуляция — защищаем данные героя"
 concepts: [инкапсуляция, _private конвенция, геттеры и сеттеры, валидация данных]
-prerequisites: "[\"[[week_7/day_3]]\"]"
+prerequisites: "[\"[week_7/day_3](/python/week_7/day_3/)\"]"
 tags: [python, ооп, классы, инкапсуляция, геттеры, сеттеры]
 status: draft
 ---
@@ -691,4 +691,4 @@ STYLE — STRICT:
 - MOOD: Hollow Knight's City of Tears — contemplative, beautiful, mysterious. NOT aggressive, NOT cyberpunk.
 -->
 
-← [Day 3 — Наследование](day_3.md) | [Day 5 — Магические методы →](day_5.md)
+← [Day 3 — Наследование](/python/week_7/day_3/) | [Day 5 — Магические методы →](/python/week_7/day_5/)

@@ -1,18 +1,18 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 10
 day: 1
 title: "День 1 — import random: квест становится живым"
 concepts: [import random, random.choice, random.randint, случайные события в игре]
-prerequisites: "[\"[[week_9/day_7]]\"]"
+prerequisites: "[\"[week_9/day_7](/python/week_9/day_7/)\"]"
 tags: [python, текстовый-квест, random, проект]
 status: draft
 ---
 
 # День 1 — import random: квест становится живым
 
-← [Week 9 — Финал](../week_9/day_7.md) | [День 2 — Модули →](day_2.md)
+← [Week 9 — Финал](/python/week_9/day_7/) | [День 2 — Модули →](/python/week_10/day_2/)
 
 ---
 
@@ -356,4 +356,4 @@ explanation: Это фундаментальная математика веро
 
 Завтра разберём, как разбить `quest.py` на несколько файлов — как это делают настоящие проекты.
 
-← [Week 9 — Финал](../week_9/day_7.md) | [День 2 — Модули →](day_2.md)
+← [Week 9 — Финал](/python/week_9/day_7/) | [День 2 — Модули →](/python/week_10/day_2/)

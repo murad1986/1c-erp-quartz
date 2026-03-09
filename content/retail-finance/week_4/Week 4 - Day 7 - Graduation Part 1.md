@@ -1,7 +1,7 @@
 ---
 type: lesson
-course: [[retail_finance/README]]
-prerequisites: "[[Week 4 - Day 6: Итоговый экзамен и Ревью]]"
+course: "retail-finance"
+prerequisites: "[Итоговый экзамен и Ревью](/retail-finance/week_4/Week 4 - Day 6 - Final Exam/)"
 week: 4
 day: 7
 ---
@@ -28,4 +28,4 @@ day: 7
 Забудьте Cost Accounting. Да здравствует Throughput Accounting! 🤯
 
 ## Следующие шаги
-- [[Week 5 - Day 1: Введение в TOC: Cost Accounting vs Throughput Accounting]]
+- [Введение в TOC: Cost Accounting vs Throughput Accounting](/retail-finance/week_5/Week 5 - Day 1 - Intro to TOC Cost vs Throughput/)

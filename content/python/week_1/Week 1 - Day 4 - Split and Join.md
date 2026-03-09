@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 1
 day: 4
 title: "split и join: строка ↔ список слов"

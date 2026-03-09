@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 8
 day: 4
 title: "Рекурсия — функция, которая вызывает себя"
 concepts: [рекурсия, базовый случай, стек вызовов, когда не использовать рекурсию]
-prerequisites: "[\"[[week_8/day_3]]\"]"
+prerequisites: "[\"[week_8/day_3](/python/week_8/day_3/)\"]"
 tags: [python, алгоритмы, рекурсия, стек, fibonacci]
 status: draft
 ---
@@ -629,4 +629,4 @@ STYLE — STRICT:
 - MOOD: Hollow Knight's City of Tears — contemplative, beautiful, mysterious. NOT aggressive, NOT cyberpunk.
 -->
 
-← [Day 3 — Сортировка](day_3.md) | [Day 5 — Жадные алгоритмы →](day_5.md)
+← [Day 3 — Сортировка](/python/week_8/day_3/) | [Day 5 — Жадные алгоритмы →](/python/week_8/day_5/)

@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[retail_finance/README]]"
+course: "retail-finance"
 week: 2
 day: 6
 prerequisites: ["[[Week 2 - Day 5 - Cash Conversion Cycle]]"]
@@ -430,8 +430,8 @@ Kahneman: *«Pre-mortem — лучший способ преодолеть Overc
 
 ---
 
-> В [[Week 2 - Day 7 - Rest\|Day 7]] — день отдыха и **рефлексии**. Мы соберём все концепции в единую карту, предложим книги и фильмы для углублённого погружения, и подготовимся к **Неделе 3**: Юнит-экономика и операционная эффективность.
+> В [Day 7](/retail-finance/week_2/Week%202%20-%20Day%207%20-%20Rest/) — день отдыха и **рефлексии**. Мы соберём все концепции в единую карту, предложим книги и фильмы для углублённого погружения, и подготовимся к **Неделе 3**: Юнит-экономика и операционная эффективность.
 
 ---
 
-← [[Week 2 - Day 5 - Cash Conversion Cycle\|День 5]] | [[retail_finance/README\|Оглавление]] | [[Week 2 - Day 7 - Rest\|День 7]] →
+← [[Week 2 - Day 5 - Cash Conversion Cycle\|День 5]] | [Оглавление](/retail-finance/) | [День 7](/retail-finance/week_2/Week%202%20-%20Day%207%20-%20Rest/) →

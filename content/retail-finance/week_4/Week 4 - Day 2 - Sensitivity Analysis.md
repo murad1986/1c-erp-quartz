@@ -1,7 +1,7 @@
 ---
 type: lesson
-course: [[retail_finance/README]]
-prerequisites: "[[Week 4 - Day 1: Бюджетирование и Прогнозирование (Budgeting vs Forecasting)]]"
+course: "retail-finance"
+prerequisites: "[Бюджетирование и Прогнозирование (Budgeting vs Forecasting)](/retail-finance/week_4/Week 4 - Day 1 - Budgeting vs Forecasting/)"
 week: 4
 day: 2
 ---
@@ -42,4 +42,4 @@ day: 2
 3.  Какую "Красную кнопку" вы нажмете? (Уволить второго бариста? Договориться о скидке на аренду?)
 
 ## Следующие шаги
-- [[Week 4 - Day 3: Оценка стоимости компании (Valuation basics)]]
+- [Оценка стоимости компании (Valuation basics)](/retail-finance/week_4/Week 4 - Day 3 - Valuation Basics/)

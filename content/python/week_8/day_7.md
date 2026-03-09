@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 8
 day: 7
 title: "Лонгрид — Алгоритмы вокруг нас: TikTok и GPS"
 concepts: []
-prerequisites: "[\"[[week_8/day_6]]\"]"
+prerequisites: "[\"[week_8/day_6](/python/week_8/day_6/)\"]"
 tags: [python, алгоритмы, tiktok, gps, рекомендации, дейкстра, лонгрид]
 status: draft
 ---
@@ -443,4 +443,4 @@ STYLE — STRICT:
 
 ---
 
-← [Day 6 — Практика](day_6.md) | [Week 9 — Текстовый квест →](../week_9/day_1.md)
+← [Day 6 — Практика](/python/week_8/day_6/) | [Week 9 — Текстовый квест →](/python/week_9/day_1/)

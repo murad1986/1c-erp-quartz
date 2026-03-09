@@ -1,18 +1,18 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 9
 day: 3
 title: "День 3 — Предметы: поднять, бросить, использовать"
 concepts: [класс Item, команды взять/бросить/инвентарь, размещение предметов в комнатах, команда использовать]
-prerequisites: "[\"[[week_9/day_2]]\"]"
+prerequisites: "[\"[week_9/day_2](/python/week_9/day_2/)\"]"
 tags: [python, текстовый-квест, ооп, проект]
 status: draft
 ---
 
 # День 3 — Предметы
 
-← [День 2 — Карта](day_2.md) | [День 4 — Враги →](day_4.md)
+← [День 2 — Карта](/python/week_9/day_2/) | [День 4 — Враги →](/python/week_9/day_4/)
 
 ---
 
@@ -373,4 +373,4 @@ explanation: split() и join() — обратные операции. split() р
 
 Завтра добавим врагов и пошаговый бой.
 
-← [День 2 — Карта](day_2.md) | [День 4 — Враги →](day_4.md)
+← [День 2 — Карта](/python/week_9/day_2/) | [День 4 — Враги →](/python/week_9/day_4/)

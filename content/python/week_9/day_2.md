@@ -1,18 +1,18 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 9
 day: 2
 title: "Карта мира — 5 комнат и навигация"
 concepts: [функция build_world, улучшенный describe_room, ASCII-карта, команда помощь]
-prerequisites: "[\"[[week_9/day_1]]\"]"
+prerequisites: "[\"[week_9/day_1](/python/week_9/day_1/)\"]"
 tags: [python, текстовый-квест, ооп, проект]
 status: draft
 ---
 
 # День 2 — Карта мира
 
-← [День 1 — Архитектура](day_1.md) | [День 3 — Предметы →](day_3.md)
+← [День 1 — Архитектура](/python/week_9/day_1/) | [День 3 — Предметы →](/python/week_9/day_3/)
 
 ---
 
@@ -417,4 +417,4 @@ explanation: В Python нет настоящих констант — техни
 
 Завтра добавим предметы — их можно будет поднимать, бросать и использовать.
 
-← [День 1 — Архитектура](day_1.md) | [День 3 — Предметы →](day_3.md)
+← [День 1 — Архитектура](/python/week_9/day_1/) | [День 3 — Предметы →](/python/week_9/day_3/)

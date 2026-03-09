@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[value_stream_mapping/README]]"
+course: "vsm"
 week: 1
 day: 6
 prerequisites: ["[[Week 1 - Day 2 - The 8 Wastes]]", "[[Week 1 - Day 5 - Gemba Walk]]"]
@@ -1643,7 +1643,7 @@ SLIDE 6: Commitment
 ## 🎯 Следующие Шаги
 
 **Завтра (Day 7):**
-[[Week 1 - Day 7 - Rest|👉 Отдых и Рефлексия Недели]]
+[👉 Отдых и Рефлексия Недели](/vsm/week_1/Week%201%20-%20Day%207%20-%20Rest/)
 
 **Homework:**
 Проведите Waste Hunt на реальном процессе и запишите результаты!

@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[retail_finance/README]]"
+course: "retail-finance"
 week: 2
 day: 5
 prerequisites: ["[[Week 2 - Day 4 - AP and AR]]"]
@@ -481,4 +481,4 @@ COVID удлинил CCC почти везде: (1) DIO вырос (дистри
 
 ---
 
-← [[Week 2 - Day 4 - AP and AR\|День 4]] | [[retail_finance/README\|Оглавление]] | [[Week 2 - Day 6 - Case Cash Gap\|День 6]] →
+← [[Week 2 - Day 4 - AP and AR\|День 4]] | [Оглавление](/retail-finance/) | [[Week 2 - Day 6 - Case Cash Gap\|День 6]] →

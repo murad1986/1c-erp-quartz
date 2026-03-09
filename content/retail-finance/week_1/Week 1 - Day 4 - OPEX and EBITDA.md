@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[retail_finance/README]]"
+course: "retail-finance"
 week: 1
 day: 4
 prerequisites: ["[[Week 1 - Day 3 - Gross Margin and Markup]]"]
@@ -599,4 +599,4 @@ EBIT = EBITDA минус D&A (амортизация). EBITDA лучше для 
 
 ---
 
-← [[Week 1 - Day 3 - Gross Margin and Markup\|День 3]] | [[retail_finance/README\|Оглавление]] | [[Week 1 - Day 5 - Net Income and Real PL\|День 5]] →
+← [[Week 1 - Day 3 - Gross Margin and Markup\|День 3]] | [Оглавление](/retail-finance/) | [[Week 1 - Day 5 - Net Income and Real PL\|День 5]] →

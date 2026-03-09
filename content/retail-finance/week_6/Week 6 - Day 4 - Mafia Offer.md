@@ -1,7 +1,7 @@
 ---
 type: lesson
-course: [[retail_finance/README]]
-prerequisites: "[[Week 6 - Day 3: Управление Ассортиментом: MTA vs MTO]]"
+course: "retail-finance"
+prerequisites: "[Управление Ассортиментом: MTA vs MTO](/retail-finance/week_6/Week 6 - Day 3 - MTA vs MTO/)"
 week: 6
 day: 4
 ---
@@ -33,4 +33,4 @@ TOC предлагает конкурировать **Надежностью** �
 *   *Оффер*: "Возврат любых излишков в течение года по полной цене. Доставка недостающего за 2 часа бесплатно".
 
 ## Следующие шаги
-- [[Week 6 - Day 5: Viable Vision (Стратегия процветания)]]
+- [Viable Vision (Стратегия процветания)](/retail-finance/week_6/Week 6 - Day 5 - Viable Vision Strategy/)

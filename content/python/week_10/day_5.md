@@ -1,18 +1,18 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 10
 day: 5
 title: "День 5 — Горизонты: куда расти дальше"
 concepts: [Telegram-бот с telebot, Flask веб-сервер, pygame основы, что изучать дальше]
-prerequisites: "[\"[[week_10/day_4]]\"]"
+prerequisites: "[\"[week_10/day_4](/python/week_10/day_4/)\"]"
 tags: [python, перспективы, telegram, flask, pygame]
 status: draft
 ---
 
 # День 5 — Горизонты: куда расти дальше
 
-← [День 4 — Финальная архитектура](day_4.md) | [День 6 — Практика →](day_6.md)
+← [День 4 — Финальная архитектура](/python/week_10/day_4/) | [День 6 — Практика →](/python/week_10/day_6/)
 
 ---
 
@@ -239,4 +239,4 @@ explanation: Это фундаментальная проблема многоп
 
 Всё это строится на том, что ты уже знаешь. `import random`, модули, классы, исключения — фундамент готов. Дальше — только практика и любопытство.
 
-← [День 4 — Финальная архитектура](day_4.md) | [День 6 — Практика →](day_6.md)
+← [День 4 — Финальная архитектура](/python/week_10/day_4/) | [День 6 — Практика →](/python/week_10/day_6/)

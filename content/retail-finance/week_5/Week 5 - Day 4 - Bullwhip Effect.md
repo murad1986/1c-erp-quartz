@@ -1,7 +1,7 @@
 ---
 type: lesson
-course: [[retail_finance/README]]
-prerequisites: "[[Week 5 - Day 3: Инвентарь в TOC: Пассив, а не Актив?]]"
+course: "retail-finance"
+prerequisites: "[Инвентарь в TOC: Пассив, а не Актив?](/retail-finance/week_5/Week 5 - Day 3 - Inventory as Liability/)"
 week: 5
 day: 4
 ---
@@ -53,4 +53,4 @@ graph LR
 *   Итог: Сейчас у всех дома запас бумаги на год, продажи упали до нуля.
 
 ## Следующие шаги
-- [[Week 5 - Day 5: Дилемма ритейлера: Держать много vs Держать мало]]
+- [Дилемма ритейлера: Держать много vs Держать мало](/retail-finance/week_5/Week 5 - Day 5 - Retailer Dilemma Cloud/)

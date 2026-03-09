@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 8
 day: 1
 title: "Алгоритмы вокруг нас — что такое сложность"
 concepts: [алгоритм, Big O нотация, O(1) O(n) O(n²), time.time()]
-prerequisites: "[\"[[week_7/day_7]]\"]"
+prerequisites: "[\"[week_7/day_7](/python/week_7/day_7/)\"]"
 tags: [python, алгоритмы, big-o, сложность, time]
 status: draft
 ---
@@ -589,4 +589,4 @@ STYLE — STRICT:
 - MOOD: Hollow Knight's City of Tears — contemplative, beautiful, mysterious. NOT aggressive, NOT cyberpunk.
 -->
 
-← [Week 7 Practice](../week_7/day_6.md) | [Day 2 — Поиск →](day_2.md)
+← [Week 7 Practice](/python/week_7/day_6/) | [Day 2 — Поиск →](/python/week_8/day_2/)

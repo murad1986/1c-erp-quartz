@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[retail_finance/README]]"
+course: "retail-finance"
 week: 2
 day: 3
 prerequisites: ["[[Week 2 - Day 2 - Inventory and Turnover]]"]
@@ -448,4 +448,4 @@ AI может оптимизировать полочное пространст
 
 ---
 
-← [[Week 2 - Day 2 - Inventory and Turnover\|День 2]] | [[retail_finance/README\|Оглавление]] | [[Week 2 - Day 4 - AP and AR\|День 4]] →
+← [[Week 2 - Day 2 - Inventory and Turnover\|День 2]] | [Оглавление](/retail-finance/) | [[Week 2 - Day 4 - AP and AR\|День 4]] →

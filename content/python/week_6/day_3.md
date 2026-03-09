@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 6
 day: 3
 title: "raise — бросаем исключения сами"
 concepts: [raise, валидация входных данных, raise ValueError, правила defensive programming]
-prerequisites: "[\"[[week_6/day_2]]\"]"
+prerequisites: "[\"[week_6/day_2](/python/week_6/day_2/)\"]"
 tags: [python, ошибки, raise, валидация, defensive-programming]
 status: draft
 ---
@@ -474,4 +474,4 @@ STYLE — STRICT:
 - MOOD: Hollow Knight's City of Tears — contemplative, beautiful, mysterious. NOT aggressive, NOT cyberpunk.
 -->
 
-← [[week_6/day_2|День 6.2]] | [[week_6/day_4|День 6.4 →]]
+← [День 6.2](/python/week_6/day_2/) | [День 6.4 →](/python/week_6/day_4/)

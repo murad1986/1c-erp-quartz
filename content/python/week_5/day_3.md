@@ -335,4 +335,4 @@ show_stats(stats)
 
 ![Дерево навыков дня 3 — local scope, изоляция, global (избегай), мутация vs переприсваивание](day_3/day_3_skill_tree.png)
 
-← [День 2](/week_5/day_2) | [День 4 →](/week_5/day_4)
+← [День 2](/python/week_5/day_2/) | [День 4 →](/python/week_5/day_4/)

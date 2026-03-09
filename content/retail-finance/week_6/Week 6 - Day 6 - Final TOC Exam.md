@@ -1,7 +1,7 @@
 ---
 type: lesson
-course: [[retail_finance/README]]
-prerequisites: "[[Week 6 - Day 5: Viable Vision (Стратегия процветания)]]"
+course: "retail-finance"
+prerequisites: "[Viable Vision (Стратегия процветания)](/retail-finance/week_6/Week 6 - Day 5 - Viable Vision Strategy/)"
 week: 6
 day: 6
 ---
@@ -42,4 +42,4 @@ day: 6
 Вы знаете то, чего не знают 99% директоров, застрявших в Cost World.
 
 ## Следующие шаги
-- [[Week 6 - Day 7: Гранд Финал и Диплом]]
+- [Гранд Финал и Диплом](/retail-finance/week_6/Week 6 - Day 7 - Grand Finale/)

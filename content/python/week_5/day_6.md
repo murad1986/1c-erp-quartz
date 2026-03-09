@@ -502,4 +502,4 @@ def show_top_scores(top_n=5):
 
 ---
 
-← [День 5 — import и модули](day_5.md) | [День 7 — Лонгрид →](day_7.md)
+← [День 5 — import и модули](/python/week_5/day_5/) | [День 7 — Лонгрид →](/python/week_5/day_7/)

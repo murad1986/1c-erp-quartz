@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 4
 day: 4
 title: "Система сейвов — сохраняем и загружаем состояние"
 concepts: [паттерн save/load, первый запуск новая игра, атомарная запись через temp-файл]
-prerequisites: "[\"[[week_4/day_3]]\"]"
+prerequisites: "[\"[week_4/day_3](/python/week_4/day_3/)\"]"
 tags: [python, файлы, json, сохранение, архитектура]
 status: draft
 ---
@@ -395,4 +395,4 @@ print(migrated)
 
 ![Skill tree дня 4 — система сейвов: save/load паттерн, первый запуск, атомарная запись, миграция](day_4/day_4_skill_tree.png)
 
-← [Day 3 — JSON](day_3.md) | [Day 5 — Пути к файлам →](day_5.md)
+← [Day 3 — JSON](/python/week_4/day_3/) | [Day 5 — Пути к файлам →](/python/week_4/day_5/)

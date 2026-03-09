@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 8
 day: 5
 title: "Жадные алгоритмы и мемоизация"
 concepts: [жадный алгоритм, контрпример к жадному алгоритму, мемоизация, lru_cache]
-prerequisites: "[\"[[week_8/day_4]]\"]"
+prerequisites: "[\"[week_8/day_4](/python/week_8/day_4/)\"]"
 tags: [python, алгоритмы, greedy, мемоизация, динамическое программирование]
 status: draft
 ---
@@ -616,4 +616,4 @@ STYLE — STRICT:
 - MOOD: Hollow Knight's City of Tears — contemplative, beautiful, mysterious. NOT aggressive, NOT cyberpunk.
 -->
 
-← [Day 4 — Рекурсия](day_4.md) | [Day 6 — Практика →](day_6.md)
+← [Day 4 — Рекурсия](/python/week_8/day_4/) | [Day 6 — Практика →](/python/week_8/day_6/)

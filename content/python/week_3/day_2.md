@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 3
 day: 2
 title: "Методы словаря — перебор и безопасный доступ"
 concepts: [.get(), методы просмотра keys/values/items, for k v in items(), .update()]
-prerequisites: "[\"[[week_3/day_1]]\"]"
+prerequisites: "[\"[week_3/day_1](/python/week_3/day_1/)\"]"
 tags: [python, словари, dict, методы]
 status: draft
 ---
@@ -399,4 +399,4 @@ while True:
 
 ---
 
-← [Day 1 — Словари: мгновенный поиск](day_1.md) | [Day 3 — Вложенные словари →](day_3.md)
+← [Day 1 — Словари: мгновенный поиск](/python/week_3/day_1/) | [Day 3 — Вложенные словари →](/python/week_3/day_3/)

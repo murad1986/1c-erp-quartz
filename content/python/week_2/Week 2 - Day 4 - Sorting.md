@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 2
 day: 4
 title: "Сортировка: sort() vs sorted()"
@@ -504,4 +504,4 @@ print(", ".join(sorted_names))
 
 ---
 
-← [[Week 2 - Day 3 - List Iteration\|День 3]] | [[python_basics/README\|Оглавление]] | [[Week 2 - Day 5 - List Slicing\|День 5]] →
+← [[Week 2 - Day 3 - List Iteration\|День 3]] | [Оглавление](/python/) | [[Week 2 - Day 5 - List Slicing\|День 5]] →

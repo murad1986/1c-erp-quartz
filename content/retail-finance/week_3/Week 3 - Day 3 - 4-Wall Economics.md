@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[retail_finance/README]]"
+course: "retail-finance"
 week: 3
 day: 3
 prerequisites: "[\"[[Week 3 - Day 2 - Unit Economics|День 2: Юнит-экономика]]\"]"
@@ -340,4 +340,4 @@ Luxury (Louis Vuitton, Hermes): маржа 60-70%, небольшие площа
 
 ---
 
-← [[Week 3 - Day 2 - Unit Economics|День 2]] | [[retail_finance/README|Оглавление]] | [[Week 3 - Day 4 - Capex vs Opex|День 4]] →
+← [[Week 3 - Day 2 - Unit Economics|День 2]] | [Оглавление](/retail-finance/) | [[Week 3 - Day 4 - Capex vs Opex|День 4]] →

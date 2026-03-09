@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 4
 day: 3
 title: "JSON — словари на диске"
 concepts: [json.dumps и json.loads, json.dump и json.load, indent и encoding]
-prerequisites: "[\"[[week_4/day_2]]\"]"
+prerequisites: "[\"[week_4/day_2](/python/week_4/day_2/)\"]"
 tags: [python, json, файлы, сериализация]
 status: draft
 ---
@@ -406,4 +406,4 @@ print(data["name"])   # → Steve
 
 ![Skill tree дня 3 — навыки JSON: dumps, dump, loads, load, indent, ensure_ascii](day_3/day_3_skill_tree.png)
 
-← [Day 2 — Запись в файлы](day_2.md) | [Day 4 — Система сейвов →](day_4.md)
+← [Day 2 — Запись в файлы](/python/week_4/day_2/) | [Day 4 — Система сейвов →](/python/week_4/day_4/)

@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 4
 day: 5
 title: "Пути к файлам — os.path и навигация"
 concepts: [os.path.exists, os.path.join, os.listdir, os.makedirs]
-prerequisites: "[\"[[week_4/day_4]]\"]"
+prerequisites: "[\"[week_4/day_4](/python/week_4/day_4/)\"]"
 tags: [python, файлы, os, путь, директории]
 status: draft
 ---
@@ -408,4 +408,4 @@ with open(dst_path, "w", encoding="utf-8") as f:
 
 ![Skill tree дня 5 — навигация по ФС: os.path.exists, os.path.join, os.listdir, os.makedirs](day_5/day_5_skill_tree.png)
 
-← [Day 4 — Система сейвов](day_4.md) | [Day 6 — Практика →](day_6.md)
+← [Day 4 — Система сейвов](/python/week_4/day_4/) | [Day 6 — Практика →](/python/week_4/day_6/)

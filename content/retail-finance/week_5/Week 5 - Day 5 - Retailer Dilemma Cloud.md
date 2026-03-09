@@ -1,7 +1,7 @@
 ---
 type: lesson
-course: [[retail_finance/README]]
-prerequisites: "[[Week 5 - Day 4: Эффект Хлыста (Bullwhip Effect) в цепи поставок]]"
+course: "retail-finance"
+prerequisites: "[Эффект Хлыста (Bullwhip Effect) в цепи поставок](/retail-finance/week_5/Week 5 - Day 4 - Bullwhip Effect/)"
 week: 5
 day: 5
 ---
@@ -52,4 +52,4 @@ graph LR
 Как применить это к магазину одежды? (Zara делает именно это).
 
 ## Следующие шаги
-- [[Week 5 - Day 6: Анализ P&L через призму TOC]]
+- [Анализ P&L через призму TOC](/retail-finance/week_5/Week 5 - Day 6 - PL Analysis TOC/)

@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 8
 day: 3
 title: "Сортировка — пузырёк, выбор, встроенная"
 concepts: [пузырьковая сортировка O(n²), сортировка выбором O(n²), sorted() O(n log n), ключ сортировки]
-prerequisites: "[\"[[week_8/day_2]]\"]"
+prerequisites: "[\"[week_8/day_2](/python/week_8/day_2/)\"]"
 tags: [python, алгоритмы, сортировка, bubble sort, selection sort, sorted]
 status: draft
 ---
@@ -633,4 +633,4 @@ STYLE — STRICT:
 - MOOD: Hollow Knight's City of Tears — contemplative, beautiful, mysterious. NOT aggressive, NOT cyberpunk.
 -->
 
-← [Day 2 — Бинарный поиск](day_2.md) | [Day 4 →](day_4.md)
+← [Day 2 — Бинарный поиск](/python/week_8/day_2/) | [Day 4 →](/python/week_8/day_4/)

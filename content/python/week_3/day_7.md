@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 3
 day: 7
 title: "Лонгрид: как данные хранят Minecraft, Dark Souls и YouTube"
 concepts: []
-prerequisites: "[\"[[week_3/day_6]]\"]"
+prerequisites: "[\"[week_3/day_6](/python/week_3/day_6/)\"]"
 tags: [python, словари, игры, лонгрид, json, базы-данных]
 status: draft
 ---
@@ -319,4 +319,4 @@ print(similar_videos("video_A", video_tags))
 
 ---
 
-← [Day 6 — Практика](day_6.md) | [Week 4, Day 1 — Файлы →](../week_4/day_1.md)
+← [Day 6 — Практика](/python/week_3/day_6/) | [Week 4, Day 1 — Файлы →](/python/week_4/day_1/)

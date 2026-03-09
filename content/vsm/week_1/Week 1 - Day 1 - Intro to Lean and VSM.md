@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[value_stream_mapping/README]]"
+course: "vsm"
 week: 1
 day: 1
 prerequisites: []
@@ -408,4 +408,4 @@ Compaq в итоге был поглощен HP. Dell стал мировым л
 
 ---
 
-← [[value_stream_mapping/README|Оглавление]] | [[Week 1 - Day 2 - The 8 Wastes|День 2]] →
+← [Оглавление](/vsm/) | [[Week 1 - Day 2 - The 8 Wastes|День 2]] →

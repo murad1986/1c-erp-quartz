@@ -1,7 +1,7 @@
 ---
 type: lesson
-course: [[retail_finance/README]]
-prerequisites: "[[Week 4 - Day 3: Оценка стоимости компании (Valuation basics)]]"
+course: "retail-finance"
+prerequisites: "[Оценка стоимости компании (Valuation basics)](/retail-finance/week_4/Week 4 - Day 3 - Valuation Basics/)"
 week: 4
 day: 4
 ---
@@ -36,4 +36,4 @@ day: 4
 *(Это симуляция реальной работы Turnaround Manager).*
 
 ## Следующие шаги
-- [[Week 4 - Day 5: Презентация проекта (симуляция)]]
+- [Презентация проекта (симуляция)](/retail-finance/week_4/Week 4 - Day 5 - Project Presentation/)

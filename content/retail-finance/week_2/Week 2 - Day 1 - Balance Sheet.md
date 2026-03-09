@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[retail_finance/README]]"
+course: "retail-finance"
 week: 2
 day: 1
 prerequisites: ["[[Week 1 - Day 7 - Rest and Reflection]]"]
@@ -526,4 +526,4 @@ DuPont Analysis для Walmart (из [[Week 1 - Day 5 - Net Income and Real PL\|
 
 ---
 
-← [[Week 1 - Day 7 - Rest and Reflection\|День 7]] | [[retail_finance/README\|Оглавление]] | [[Week 2 - Day 2 - Inventory and Turnover\|День 2]] →
+← [[Week 1 - Day 7 - Rest and Reflection\|День 7]] | [Оглавление](/retail-finance/) | [[Week 2 - Day 2 - Inventory and Turnover\|День 2]] →

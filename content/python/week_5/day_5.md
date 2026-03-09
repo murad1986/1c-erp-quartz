@@ -518,4 +518,4 @@ for i, hero in enumerate(party, 1):
 
 ![Дерево навыков дня 5 — import, random, deepcopy, свой модуль](day_5/day_5_skill_tree.png)
 
-← [День 4 — lambda и sorted](day_4.md) | [День 6 — Практика: Рогалик →](day_6.md)
+← [День 4 — lambda и sorted](/python/week_5/day_4/) | [День 6 — Практика: Рогалик →](/python/week_5/day_6/)

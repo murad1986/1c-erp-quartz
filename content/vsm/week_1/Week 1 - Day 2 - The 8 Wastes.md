@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[value_stream_mapping/README]]"
+course: "vsm"
 week: 1
 day: 2
 prerequisites: ["[[Week 1 - Day 1 - Intro to Lean and VSM]]"]
@@ -425,4 +425,4 @@ Lean принудительно **снижает уровень воды** (ум
 
 ---
 
-← [[Week 1 - Day 1 - Intro to Lean and VSM|День 1]] | [[value_stream_mapping/README|Оглавление]] | [[Week 1 - Day 3 - Mura and Muri|День 3]] →
+← [[Week 1 - Day 1 - Intro to Lean and VSM|День 1]] | [Оглавление](/vsm/) | [[Week 1 - Day 3 - Mura and Muri|День 3]] →

@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 3
 day: 1
 title: "Словари — мгновенный поиск"
 concepts: "[dict создание, dict[key] доступ, dict[key]=value запись, in и KeyError]"
-prerequisites: "[\"[[week_2/day_7]]\"]"
+prerequisites: "[\"[week_2/day_7](/python/week_2/Week%202%20-%20Day%207%20-%20Rest/)\"]"
 tags: [python, словари, dict, структуры-данных]
 status: draft
 ---
@@ -451,4 +451,4 @@ while True:
 
 ---
 
-← [Week 2, Day 7 — Лонгрид: списки в играх](../week_2/day_7.md) | [Day 2 — Методы словаря →](day_2.md)
+← [Week 2, Day 7 — Лонгрид: списки в играх](/python/week_2/Week%202%20-%20Day%207%20-%20Rest/) | [Day 2 — Методы словаря →](/python/week_3/day_2/)

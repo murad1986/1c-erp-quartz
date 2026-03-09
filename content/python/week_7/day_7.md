@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 7
 day: 7
 title: "Лонгрид — Как ООП устроены враги в Dark Souls и предметы в Terraria"
 concepts: []
-prerequisites: "[\"[[week_7/day_6]]\"]"
+prerequisites: "[\"[week_7/day_6](/python/week_7/day_6/)\"]"
 tags: [python, ооп, геймдев, dark souls, terraria, minecraft, лонгрид]
 status: draft
 ---
@@ -715,4 +715,4 @@ Creeper появился из бага. Код позволил этому ба�
 
 ---
 
-← [Day 6 — Практика](day_6.md) | [Week 8 — Алгоритмы →](../week_8/day_1.md)
+← [Day 6 — Практика](/python/week_7/day_6/) | [Week 8 — Алгоритмы →](/python/week_8/day_1/)

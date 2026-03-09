@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[retail_finance/README]]"
+course: "retail-finance"
 week: 2
 day: 7
 prerequisites: ["[[Week 2 - Day 6 - Case Cash Gap]]"]
@@ -352,4 +352,4 @@ Revenue per Employee. Cost per Hour. Почему Costco платит сотру
 
 ---
 
-← [[Week 2 - Day 6 - Case Cash Gap\|День 6]] | [[README\|Оглавление]] | [[Week 3 - Day 1 - LFL analysis\|Неделя 3, День 1]] →
+← [[Week 2 - Day 6 - Case Cash Gap\|День 6]] | [Оглавление](/retail-finance/) | [[Week 3 - Day 1 - LFL analysis\|Неделя 3, День 1]] →

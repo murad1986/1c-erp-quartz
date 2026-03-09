@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 7
 day: 2
 title: "Методы — функции внутри класса"
 concepts: [методы экземпляра, __str__, self.метод(), return из метода]
-prerequisites: "[\"[[week_7/day_1]]\"]"
+prerequisites: "[\"[week_7/day_1](/python/week_7/day_1/)\"]"
 tags: [python, ооп, классы, методы, __str__, self]
 status: draft
 ---
@@ -560,4 +560,4 @@ STYLE — STRICT:
 - MOOD: Hollow Knight's City of Tears — contemplative, beautiful, mysterious. NOT aggressive, NOT cyberpunk.
 -->
 
-← [День 1 — class и __init__](day_1.md) | [День 3 — Наследование →](day_3.md)
+← [День 1 — class и __init__](/python/week_7/day_1/) | [День 3 — Наследование →](/python/week_7/day_3/)

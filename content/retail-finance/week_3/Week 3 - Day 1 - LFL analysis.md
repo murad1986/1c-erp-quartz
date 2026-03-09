@@ -1,9 +1,9 @@
 ---
 type: lesson
-course: "[[retail_finance/README]]"
+course: "retail-finance"
 week: 3
 day: 1
-prerequisites: ["[[Week 2 - Day 7 - Rest]]"]
+prerequisites: ["[Week 2 - Day 7 - Rest](/retail-finance/week_2/Week%202%20-%20Day%207%20-%20Rest/)"]
 tags: [retail-finance, unit-economics, lfl, same-store-sales, organic-growth, week3]
 status: draft
 ---
@@ -412,4 +412,4 @@ LFL −18.9% в первом квартале — это не «переходн
 
 ---
 
-← [[Week 2 - Day 7 - Rest\|День 7]] | [[README\|Оглавление]] | [[Week 3 - Day 2 - Unit Economics\|День 2]] →
+← [День 7](/retail-finance/week_2/Week%202%20-%20Day%207%20-%20Rest/) | [Оглавление](/retail-finance/) | [[Week 3 - Day 2 - Unit Economics\|День 2]] →

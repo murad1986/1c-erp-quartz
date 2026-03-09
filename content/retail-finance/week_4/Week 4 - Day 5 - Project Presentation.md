@@ -1,7 +1,7 @@
 ---
 type: lesson
-course: [[retail_finance/README]]
-prerequisites: "[[Week 4 - Day 4: Финальный Проект: Стратегия оздоровления сети]]"
+course: "retail-finance"
+prerequisites: "[Финальный Проект: Стратегия оздоровления сети](/retail-finance/week_4/Week 4 - Day 4 - Final Project Strategy/)"
 week: 4
 day: 5
 ---
@@ -27,4 +27,4 @@ day: 5
 Проговорите эти ответы вслух. Звучите уверенно? Вы опираетесь на цифры или на эмоции?
 
 ## Следующие шаги
-- [[Week 4 - Day 6: Итоговый экзамен и Ревью]]
+- [Итоговый экзамен и Ревью](/retail-finance/week_4/Week 4 - Day 6 - Final Exam/)

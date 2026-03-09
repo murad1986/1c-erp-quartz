@@ -1,17 +1,17 @@
 ---
 type: longread
-course: "[[python_basics/README]]"
+course: "python"
 week: 10
 day: 7
 title: "День 7 — Один разработчик, одна игра: истории тех, кто начинал как ты"
-prerequisites: "[\"[[week_10/day_6]]\"]"
+prerequisites: "[\"[week_10/day_6](/python/week_10/day_6/)\"]"
 tags: [python, история, инди-разработка, мотивация, лонгрид]
 status: draft
 ---
 
 # День 7 — Один разработчик, одна игра
 
-← [День 6 — Практика](day_6.md)
+← [День 6 — Практика](/python/week_10/day_6/)
 
 ---
 
@@ -148,4 +148,4 @@ STYLE — STRICT:
 
 ---
 
-← [День 6 — Практика](day_6.md)
+← [День 6 — Практика](/python/week_10/day_6/)

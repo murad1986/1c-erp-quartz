@@ -290,4 +290,4 @@ show_battle_result(hero_hp, goblin_hp)
 
 ![Дерево навыков дня 1 — def, return, параметры, DRY](day_1/day_1_skill_tree.png)
 
-← [День 4, Неделя 4](/week_4/day_7) | [День 2 →](/week_5/day_2)
+← [День 4, Неделя 4](/python/week_4/day_7/) | [День 2 →](/python/week_5/day_2/)

@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 4
 day: 2
 title: "Файлы — записываем данные на диск"
 concepts: [режимы w и a, write() и writelines(), \n в строках]
-prerequisites: "[\"[[week_4/day_1]]\"]"
+prerequisites: "[\"[week_4/day_1](/python/week_4/day_1/)\"]"
 tags: [python, файлы, запись, write, append]
 status: draft
 ---
@@ -370,4 +370,4 @@ while True:
 
 ![Skill tree дня 2 — навыки записи: режимы 'w'/'a', .write(), .writelines(), сохранение словаря](day_2/day_2_skill_tree.png)
 
-← [Day 1 — Чтение файлов](day_1.md) | [Day 3 — JSON →](day_3.md)
+← [Day 1 — Чтение файлов](/python/week_4/day_1/) | [Day 3 — JSON →](/python/week_4/day_3/)

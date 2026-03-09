@@ -1,11 +1,11 @@
 ---
 type: practice
-course: "[[python_basics/README]]"
+course: "python"
 week: 6
 day: 6
 title: "Практика — надёжная система сейвов"
 concepts: []
-prerequisites: "[\"[[week_6/day_5]]\"]"
+prerequisites: "[\"[week_6/day_5](/python/week_6/day_5/)\"]"
 tags: [python, ошибки, практика, проект, rpg]
 status: draft
 ---
@@ -342,4 +342,4 @@ STYLE — STRICT:
 
 ---
 
-← [[week_6/day_5|День 5]] | [[week_6/day_7|День 7 →]]
+← [День 5](/python/week_6/day_5/) | [День 7 →](/python/week_6/day_7/)

@@ -1,7 +1,7 @@
 ---
 type: lesson
-course: [[retail_finance/README]]
-prerequisites: "[[Week 5 - Day 1: Введение в TOC: Cost Accounting vs Throughput Accounting]]"
+course: "retail-finance"
+prerequisites: "[Введение в TOC: Cost Accounting vs Throughput Accounting](/retail-finance/week_5/Week 5 - Day 1 - Intro to TOC Cost vs Throughput/)"
 week: 5
 day: 2
 ---
@@ -61,4 +61,4 @@ $$ OE = \text{Rent} + \text{Salaries} + \text{Utilities} $$
 **Вывод**: Делаем!
 
 ## Следующие шаги
-- [[Week 5 - Day 3: Инвентарь в TOC: Пассив, а не Актив?]]
+- [Инвентарь в TOC: Пассив, а не Актив?](/retail-finance/week_5/Week 5 - Day 3 - Inventory as Liability/)

@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 2
 day: 7
 title: "Лонгрид: списки в реальных играх — от Terraria до Pokemon"
@@ -523,4 +523,4 @@ mixed.sort()    # TypeError — числа и строки нельзя срав
 
 ---
 
-← [[Week 2 - Day 6 - Practice Leaderboard\|День 6]] | [[python_basics/README\|Оглавление]] | [[Week 3 - Day 1 - Dict Basics\|День 1 Нед.3]] →
+← [[Week 2 - Day 6 - Practice Leaderboard\|День 6]] | [Оглавление](/python/) | [День 1 Нед.3](/python/week_3/day_1/) →

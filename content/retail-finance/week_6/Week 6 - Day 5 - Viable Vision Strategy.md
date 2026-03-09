@@ -1,7 +1,7 @@
 ---
 type: lesson
-course: [[retail_finance/README]]
-prerequisites: "[[Week 6 - Day 4: Предложение мафии (Marketing Mafia Offer)]]"
+course: "retail-finance"
+prerequisites: "[Предложение мафии (Marketing Mafia Offer)](/retail-finance/week_6/Week 6 - Day 4 - Mafia Offer/)"
 week: 6
 day: 5
 ---
@@ -30,4 +30,4 @@ day: 5
 3.  Запустить мощный маркетинг.
 
 ## Следующие шаги
-- [[Week 6 - Day 6: Финальный Экзамен курса (TOC Edition)]]
+- [Финальный Экзамен курса (TOC Edition)](/retail-finance/week_6/Week 6 - Day 6 - Final TOC Exam/)

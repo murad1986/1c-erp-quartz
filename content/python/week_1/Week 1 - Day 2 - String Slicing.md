@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 1
 day: 2
 title: "Срезы: вырезаем кусок строки"

@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 1
 day: 1
 title: "Индексы: каждый символ имеет адрес"

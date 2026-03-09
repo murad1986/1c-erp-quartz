@@ -1,17 +1,17 @@
 ---
 type: practice
-course: "[[python_basics/README]]"
+course: "python"
 week: 9
 day: 6
 title: "День 6 — Практика: собери квест целиком"
-prerequisites: "[\"[[week_9/day_5]]\"]"
+prerequisites: "[\"[week_9/day_5](/python/week_9/day_5/)\"]"
 tags: [python, текстовый-квест, практика, проект]
 status: draft
 ---
 
 # День 6 — Практика
 
-← [День 5 — Сохранение](day_5.md) | [День 7 — Лонгрид →](day_7.md)
+← [День 5 — Сохранение](/python/week_9/day_5/) | [День 7 — Лонгрид →](/python/week_9/day_7/)
 
 ---
 
@@ -179,4 +179,4 @@ STYLE — STRICT:
 - [ ] Сохранение/загрузка работает корректно
 - [ ] При смерти — красивый экран game over
 
-← [День 5 — Сохранение](day_5.md) | [День 7 — Лонгрид →](day_7.md)
+← [День 5 — Сохранение](/python/week_9/day_5/) | [День 7 — Лонгрид →](/python/week_9/day_7/)

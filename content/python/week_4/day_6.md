@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 4
 day: 6
 title: "Практика — менеджер персонажей RPG"
 concepts: []
-prerequisites: "[\"[[week_4/day_5]]\"]"
+prerequisites: "[\"[week_4/day_5](/python/week_4/day_5/)\"]"
 tags: [python, практика, файлы, json, os, проект]
 status: draft
 ---
@@ -225,4 +225,4 @@ MP:       105
 
 ---
 
-← [Day 5 — Пути к файлам](day_5.md) | [Day 7 — Лонгрид →](day_7.md)
+← [Day 5 — Пути к файлам](/python/week_4/day_5/) | [Day 7 — Лонгрид →](/python/week_4/day_7/)

@@ -1,6 +1,6 @@
 ---
 type: lesson
-course: "[[value_stream_mapping/README]]"
+course: "vsm"
 week: 1
 day: 5
 prerequisites: ["[[Week 1 - Day 1 - Intro to Lean and VSM]]", "[[Week 1 - Day 4 - Value vs Non-Value]]"]
@@ -604,4 +604,4 @@ PCE = 36.8%
 
 ---
 
-← [[Week 1 - Day 4 - Value vs Non-Value|День 4]] | [[value_stream_mapping/README|Оглавление]] | [[Week 1 - Day 6 - Practice Waste Hunt|День 6]] →
+← [[Week 1 - Day 4 - Value vs Non-Value|День 4]] | [Оглавление](/vsm/) | [[Week 1 - Day 6 - Practice Waste Hunt|День 6]] →

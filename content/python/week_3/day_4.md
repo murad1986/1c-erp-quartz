@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 3
 day: 4
 title: "Множества — уникальность и операции над группами"
 concepts: [set создание, add() discard(), in у set O(1), операции | & - ^]
-prerequisites: "[\"[[week_3/day_3]]\"]"
+prerequisites: "[\"[week_3/day_3](/python/week_3/day_3/)\"]"
 tags: [python, множества, set, теория-множеств]
 status: draft
 ---
@@ -417,4 +417,4 @@ while True:
 
 ---
 
-← [Day 3 — Вложенные словари](day_3.md) | [Day 5 — Структуры вместе →](day_5.md)
+← [Day 3 — Вложенные словари](/python/week_3/day_3/) | [Day 5 — Структуры вместе →](/python/week_3/day_5/)

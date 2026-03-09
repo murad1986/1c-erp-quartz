@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 6
 day: 1
 title: "try/except — первый щит"
 concepts: [try/except, ValueError, FileNotFoundError, обработка исключений]
-prerequisites: "[\"[[week_5/day_7]]\"]"
+prerequisites: "[\"[week_5/day_7](/python/week_5/day_7/)\"]"
 tags: [python, ошибки, try, except, исключения]
 status: draft
 ---
@@ -413,4 +413,4 @@ STYLE — STRICT:
 - MOOD: Hollow Knight's City of Tears — contemplative, beautiful, mysterious. NOT aggressive, NOT cyberpunk.
 -->
 
-← [[week_5/day_7|День 5.7]] | [[week_6/day_2|День 6.2 →]]
+← [День 5.7](/python/week_5/day_7/) | [День 6.2 →](/python/week_6/day_2/)

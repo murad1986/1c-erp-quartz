@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 8
 day: 6
 title: "Практика — алгоритмические задачи"
 concepts: []
-prerequisites: "[\"[[week_8/day_5]]\"]"
+prerequisites: "[\"[week_8/day_5](/python/week_8/day_5/)\"]"
 tags: [python, алгоритмы, практика, анаграммы, сортировка, бинарный поиск]
 status: draft
 ---
@@ -488,4 +488,4 @@ STYLE — STRICT:
 
 ---
 
-← [Day 5 — Жадные алгоритмы](day_5.md) | [Day 7 — Лонгрид →](day_7.md)
+← [Day 5 — Жадные алгоритмы](/python/week_8/day_5/) | [Day 7 — Лонгрид →](/python/week_8/day_7/)

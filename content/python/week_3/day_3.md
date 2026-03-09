@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 3
 day: 3
 title: "Вложенные словари — данные внутри данных"
 concepts: "[вложенные dict, dict[key][key], перебор вложенных, структурирование данных]"
-prerequisites: "[\"[[week_3/day_2]]\"]"
+prerequisites: "[\"[week_3/day_2](/python/week_3/day_2/)\"]"
 tags: [python, словари, вложенные-структуры, json]
 status: draft
 ---
@@ -474,4 +474,4 @@ for stat, value in character["stats"].items():
 
 ---
 
-← [Day 2 — Методы словаря](day_2.md) | [Day 4 — Множества →](day_4.md)
+← [Day 2 — Методы словаря](/python/week_3/day_2/) | [Day 4 — Множества →](/python/week_3/day_4/)

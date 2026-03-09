@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 6
 day: 5
 title: "Свои исключения"
 concepts: [class MyError(Exception), иерархия исключений, raise MyError, когда нужны свои исключения]
-prerequisites: "[\"[[week_6/day_4]]\"]"
+prerequisites: "[\"[week_6/day_4](/python/week_6/day_4/)\"]"
 tags: [python, ошибки, исключения, класс, иерархия]
 status: draft
 ---
@@ -450,4 +450,4 @@ STYLE — STRICT:
 - MOOD: Hollow Knight's City of Tears — contemplative, beautiful, mysterious. NOT aggressive, NOT cyberpunk.
 -->
 
-← [[week_6/day_4|День 4]] | [[week_6/day_6|День 6 →]]
+← [День 4](/python/week_6/day_4/) | [День 6 →](/python/week_6/day_6/)

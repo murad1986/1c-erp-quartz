@@ -1,18 +1,18 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 10
 day: 2
 title: "День 2 — Модули: один файл стал проектом"
 concepts: [разбивка на модули, import своего файла, структура проекта, from import]
-prerequisites: "[\"[[week_10/day_1]]\"]"
+prerequisites: "[\"[week_10/day_1](/python/week_10/day_1/)\"]"
 tags: [python, модули, структура-проекта, текстовый-квест]
 status: draft
 ---
 
 # День 2 — Модули: один файл стал проектом
 
-← [День 1 — random](day_1.md) | [День 3 — Исключения →](day_3.md)
+← [День 1 — random](/python/week_10/day_1/) | [День 3 — Исключения →](/python/week_10/day_3/)
 
 ---
 
@@ -367,4 +367,4 @@ explanation: Это одна из самых важных идиом Python. К�
 
 Именно так устроены все Python-проекты — от скриптов до веб-серверов. Ты только что освоил основу профессиональной разработки.
 
-← [День 1 — random](day_1.md) | [День 3 — Исключения →](day_3.md)
+← [День 1 — random](/python/week_10/day_1/) | [День 3 — Исключения →](/python/week_10/day_3/)

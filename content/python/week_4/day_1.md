@@ -1,11 +1,11 @@
 ---
 type: lesson
-course: "[[python_basics/README]]"
+course: "python"
 week: 4
 day: 1
 title: "Файлы — читаем данные с диска"
 concepts: [open() и with, read() и readlines(), for line in file, режимы открытия]
-prerequisites: "[\"[[week_3/day_7]]\"]"
+prerequisites: "[\"[week_3/day_7](/python/week_3/day_7/)\"]"
 tags: [python, файлы, open, with, чтение]
 status: draft
 ---
@@ -360,4 +360,4 @@ print(f"---\nИтого предметов: {total}")
 
 ![Skill tree дня 1 — навыки разблокированы: open/with, .read(), .readlines(), for line in f](day_1/day_1_skill_tree.png)
 
-← [Week 3, Day 7 — Лонгрид](../week_3/day_7.md) | [Day 2 — Запись в файлы →](day_2.md)
+← [Week 3, Day 7 — Лонгрид](/python/week_3/day_7/) | [Day 2 — Запись в файлы →](/python/week_4/day_2/)
