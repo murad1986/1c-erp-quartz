@@ -172,6 +172,46 @@ class DiagramPanZoom {
   }
 }
 
+/**
+ * Returns true if the given CSS color string is "dark" (luminance < 0.4).
+ * Supports hex (#rgb, #rrggbb), rgb(), rgba().
+ */
+function isColorDark(color: string): boolean {
+  color = color.trim()
+  let r = 0,
+    g = 0,
+    b = 0
+
+  if (color.startsWith("#")) {
+    const hex = color.slice(1)
+    if (hex.length === 3) {
+      r = parseInt(hex[0] + hex[0], 16)
+      g = parseInt(hex[1] + hex[1], 16)
+      b = parseInt(hex[2] + hex[2], 16)
+    } else if (hex.length === 6) {
+      r = parseInt(hex.slice(0, 2), 16)
+      g = parseInt(hex.slice(2, 4), 16)
+      b = parseInt(hex.slice(4, 6), 16)
+    } else {
+      return false
+    }
+  } else {
+    const m = color.match(/rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)/)
+    if (!m) return false
+    r = parseInt(m[1])
+    g = parseInt(m[2])
+    b = parseInt(m[3])
+  }
+
+  // Relative luminance (WCAG formula)
+  const toLinear = (c: number) => {
+    const s = c / 255
+    return s <= 0.04045 ? s / 12.92 : Math.pow((s + 0.055) / 1.055, 2.4)
+  }
+  const L = 0.2126 * toLinear(r) + 0.7152 * toLinear(g) + 0.0722 * toLinear(b)
+  return L < 0.4
+}
+
 const cssVars = [
   "--secondary",
   "--tertiary",
@@ -238,6 +278,36 @@ document.addEventListener("nav", async () => {
     })
 
     await mermaid.run({ nodes })
+
+    // Post-render: fix text contrast on colored nodes.
+    // base.scss sets `p, text { color/fill: var(--darkgray) }` globally,
+    // which overrides Mermaid's per-node color:#fff from `style` commands.
+    // Solution: after rendering, check each node's fill brightness and
+    // force white or dark text accordingly.
+    for (const codeEl of nodes) {
+      const svgEl = codeEl.querySelector("svg")
+      if (!svgEl) continue
+      const graphNodes = svgEl.querySelectorAll(".node")
+      graphNodes.forEach((graphNode) => {
+        // Get the fill from the shape element (rect, circle, ellipse, polygon)
+        const shape = graphNode.querySelector("rect, circle, ellipse, polygon")
+        if (!shape) return
+        const fillAttr = (shape as SVGElement).style.fill || shape.getAttribute("fill") || ""
+        if (!fillAttr) return
+
+        // Parse color to determine brightness
+        const isDark = isColorDark(fillAttr)
+        const textColor = isDark ? "#ffffff" : "#1a1a1a"
+
+        // Apply to all text elements (SVG <text>) and HTML elements inside foreignObject
+        graphNode.querySelectorAll("text").forEach((t) => {
+          t.style.fill = textColor
+        })
+        graphNode.querySelectorAll("foreignObject *").forEach((el) => {
+          ;(el as HTMLElement).style.color = textColor
+        })
+      })
+    }
   }
 
   await renderMermaid()
