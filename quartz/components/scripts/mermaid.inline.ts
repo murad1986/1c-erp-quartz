@@ -265,7 +265,8 @@ document.addEventListener("nav", async () => {
       securityLevel: "loose",
       theme: darkMode ? "dark" : "base",
       themeVariables: {
-        fontFamily: computedStyleMap["--codeFont"],
+        fontFamily: "ui-sans-serif, system-ui, sans-serif",
+        fontSize: "14px",
         primaryColor: computedStyleMap["--light"],
         primaryTextColor: computedStyleMap["--darkgray"],
         primaryBorderColor: computedStyleMap["--tertiary"],

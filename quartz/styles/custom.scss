@@ -124,12 +124,17 @@ article > blockquote:first-of-type {
   }
 }
 
-// HTML-лейблы внутри foreignObject: принудительно тёмный цвет
-// Перекрывает base.scss `p { color: var(--darkgray) }` И любые Mermaid-стили
+// HTML-лейблы внутри foreignObject: тёмный цвет + сброс переносов
+// base.scss задаёт text-wrap:pretty и overflow-wrap:break-word →
+// текст переносится иначе, чем Mermaid рассчитал → вылезает за блок
 .mermaid svg foreignObject p,
 .mermaid svg foreignObject span,
 .mermaid svg foreignObject div {
   color: var(--dark) !important;
+  text-wrap: unset !important;
+  overflow-wrap: unset !important;
+  word-break: normal !important;
+  white-space: pre-wrap !important;
 }
 
 // Тёмная тема
