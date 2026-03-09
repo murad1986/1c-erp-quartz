@@ -108,17 +108,23 @@ code.mermaid svg * {
 }
 
 // --- Mermaid: прозрачные фоны нод ---
-// fill-opacity не перебивается inline fill от Mermaid → работает без !important на fill.
-// Текст в источниках задан color:#1a1a1a — остаётся читаемым на любом фоне.
-.mermaid svg .node rect,
-.mermaid svg .node circle,
-.mermaid svg .node ellipse,
-.mermaid svg .node polygon {
+// Широкие селекторы — без зависимости от внутренних классов Mermaid v11.
+// fill-opacity на shape-элементах (rect/polygon/circle) не перебивает inline fill.
+// Текст в источниках задан color:#1a1a1a — читаем на любом фоне.
+.mermaid svg rect,
+.mermaid svg polygon,
+.mermaid svg circle,
+.mermaid svg ellipse {
   fill-opacity: 0.15 !important;
   stroke-opacity: 0.5 !important;
-  stroke-width: 1.5px !important;
 }
-.mermaid svg .edgePath .path {
+// Рёбра и стрелки — оставить непрозрачными
+.mermaid svg .edgePath path,
+.mermaid svg .arrowheadPath,
+.mermaid svg marker path,
+.mermaid svg marker polygon {
+  fill-opacity: 1 !important;
+  stroke-opacity: 1 !important;
   stroke-width: 1.5px;
 }
 
