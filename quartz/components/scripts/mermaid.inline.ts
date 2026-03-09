@@ -265,7 +265,7 @@ document.addEventListener("nav", async () => {
       securityLevel: "loose",
       theme: darkMode ? "dark" : "base",
       themeVariables: {
-        fontFamily: "ui-sans-serif, system-ui, sans-serif",
+        fontFamily: computedStyleMap["--codeFont"],
         fontSize: "14px",
         primaryColor: computedStyleMap["--light"],
         primaryTextColor: computedStyleMap["--darkgray"],
@@ -279,6 +279,23 @@ document.addEventListener("nav", async () => {
     })
 
     await mermaid.run({ nodes })
+
+    // После рендера принудительно ставим тёмный текст через inline style.
+    // CSS !important конфликтует с Mermaid внутренними стилями (color:#fff на dark nodes).
+    // JS inline style (element.style.fill) побеждает обычный CSS без !important.
+    const textColor = darkMode ? "#E8F0FA" : "#1E2D45"
+    for (const codeEl of nodes) {
+      const svgEl = codeEl.querySelector("svg")
+      if (!svgEl) continue
+      // SVG <text> элементы внутри нод
+      svgEl.querySelectorAll(".node text").forEach((t) => {
+        ;(t as SVGElement).style.fill = textColor
+      })
+      // HTML foreignObject content (p, span, div внутри нод)
+      svgEl.querySelectorAll(".node foreignObject *").forEach((el) => {
+        ;(el as HTMLElement).style.color = textColor
+      })
+    }
   }
 
   await renderMermaid()

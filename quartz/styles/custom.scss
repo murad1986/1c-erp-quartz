@@ -100,11 +100,9 @@ article > blockquote:first-of-type {
   }
 }
 
-// --- Mermaid: полупрозрачные фоны + тёмный текст ---
-// fill-opacity делает фоны пастельными → тёмный текст читается на любом фоне.
-// Текст принудительно тёмный: SVG text через fill, HTML foreignObject через color.
+// --- Mermaid: полупрозрачные фоны нод ---
+// Текст тёмный через JS (mermaid.inline.ts) после рендера — надёжнее CSS
 .mermaid svg {
-  // Полупрозрачные фоны нод
   .node rect,
   .node circle,
   .node ellipse,
@@ -114,30 +112,11 @@ article > blockquote:first-of-type {
     stroke-width: 1.5px;
   }
 
-  // SVG text (edge labels, tick marks и т.д.)
-  text {
-    fill: var(--darkgray) !important;
-  }
-
   .edgePath .path {
     stroke-width: 1.5px;
   }
 }
 
-// HTML-лейблы внутри foreignObject: тёмный цвет + сброс переносов
-// base.scss задаёт text-wrap:pretty и overflow-wrap:break-word →
-// текст переносится иначе, чем Mermaid рассчитал → вылезает за блок
-.mermaid svg foreignObject p,
-.mermaid svg foreignObject span,
-.mermaid svg foreignObject div {
-  color: var(--dark) !important;
-  text-wrap: unset !important;
-  overflow-wrap: unset !important;
-  word-break: normal !important;
-  white-space: pre-wrap !important;
-}
-
-// Тёмная тема
 [saved-theme="dark"] .mermaid svg {
   .node rect,
   .node circle,
@@ -146,13 +125,4 @@ article > blockquote:first-of-type {
   .node path {
     fill-opacity: 0.3 !important;
   }
-  text {
-    fill: var(--dark) !important;
-  }
-}
-
-[saved-theme="dark"] .mermaid svg foreignObject p,
-[saved-theme="dark"] .mermaid svg foreignObject span,
-[saved-theme="dark"] .mermaid svg foreignObject div {
-  color: var(--dark) !important;
 }
