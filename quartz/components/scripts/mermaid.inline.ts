@@ -278,36 +278,6 @@ document.addEventListener("nav", async () => {
     })
 
     await mermaid.run({ nodes })
-
-    // Post-render: fix text contrast on colored nodes.
-    // base.scss sets `p, text { color/fill: var(--darkgray) }` globally,
-    // which overrides Mermaid's per-node color:#fff from `style` commands.
-    // Solution: after rendering, check each node's fill brightness and
-    // force white or dark text accordingly.
-    for (const codeEl of nodes) {
-      const svgEl = codeEl.querySelector("svg")
-      if (!svgEl) continue
-      const graphNodes = svgEl.querySelectorAll(".node")
-      graphNodes.forEach((graphNode) => {
-        // Get the fill from the shape element (rect, circle, ellipse, polygon)
-        const shape = graphNode.querySelector("rect, circle, ellipse, polygon")
-        if (!shape) return
-        const fillAttr = (shape as SVGElement).style.fill || shape.getAttribute("fill") || ""
-        if (!fillAttr) return
-
-        // Parse color to determine brightness
-        const isDark = isColorDark(fillAttr)
-        const textColor = isDark ? "#ffffff" : "#1a1a1a"
-
-        // Apply to all text elements (SVG <text>) and HTML elements inside foreignObject
-        graphNode.querySelectorAll("text").forEach((t) => {
-          t.style.fill = textColor
-        })
-        graphNode.querySelectorAll("foreignObject *").forEach((el) => {
-          ;(el as HTMLElement).style.color = textColor
-        })
-      })
-    }
   }
 
   await renderMermaid()
