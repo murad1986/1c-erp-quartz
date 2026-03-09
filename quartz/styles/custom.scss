@@ -100,29 +100,16 @@ article > blockquote:first-of-type {
   }
 }
 
-// --- Mermaid: полупрозрачные фоны нод ---
-// Текст тёмный через JS (mermaid.inline.ts) после рендера — надёжнее CSS
+// --- Mermaid: минимальные структурные стили ---
+// Цвета заданы прямо в источниках диаграмм (пастельные fill + тёмный color:#1a1a1a)
 .mermaid svg {
   .node rect,
   .node circle,
   .node ellipse,
-  .node polygon,
-  .node path {
-    fill-opacity: 0.12 !important;
+  .node polygon {
     stroke-width: 1.5px;
   }
-
   .edgePath .path {
     stroke-width: 1.5px;
-  }
-}
-
-[saved-theme="dark"] .mermaid svg {
-  .node rect,
-  .node circle,
-  .node ellipse,
-  .node polygon,
-  .node path {
-    fill-opacity: 0.3 !important;
   }
 }

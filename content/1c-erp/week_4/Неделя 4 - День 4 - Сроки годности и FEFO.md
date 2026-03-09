@@ -106,10 +106,10 @@ flowchart TD
     F -- Да --> G
     F -- Нет --> H
 
-    classDef entry fill:#0055BB,color:#fff,stroke:#003399
+    classDef entry fill:#dceeff,color:#1a1a1a,stroke:#003399
     classDef check fill:#445566,color:#fff,stroke:#334455
     classDef ok fill:#1a7a4a,color:#fff,stroke:#135c38
-    classDef result fill:#0055BB,color:#fff,stroke:#003399
+    classDef result fill:#dceeff,color:#1a1a1a,stroke:#003399
     classDef warn fill:#8a6d00,color:#fff,stroke:#6b5400
     classDef error fill:#8b1a1a,color:#fff,stroke:#6b1010
 ```
@@ -268,7 +268,7 @@ flowchart LR
     C -- Нет --> E
     C -- Да --> F
 
-    classDef stock fill:#0055BB,color:#fff,stroke:#003399
+    classDef stock fill:#dceeff,color:#1a1a1a,stroke:#003399
     classDef check fill:#445566,color:#fff,stroke:#334455
     classDef ok fill:#1a7a4a,color:#fff,stroke:#135c38
     classDef warn fill:#8a6d00,color:#fff,stroke:#6b5400
@@ -423,7 +423,7 @@ flowchart LR
 
     classDef before fill:#8b1a1a,color:#fff,stroke:#6b1010
     classDef after fill:#1a7a4a,color:#fff,stroke:#135c38
-    classDef result fill:#0055BB,color:#fff,stroke:#003399
+    classDef result fill:#dceeff,color:#1a1a1a,stroke:#003399
 ```
 
 > [!IMPORTANT] Главный вывод кейса
@@ -505,11 +505,11 @@ flowchart LR
 отгрузки + списание"]
     CHECK -->|"> 3 дней"| SHIP["Обычная отгрузка"]
 
-    style REG fill:#0055BB,color:#fff
-    style FEFO fill:#0055BB,color:#fff
-    style DISCOUNT fill:#885500,color:#fff
+    style REG fill:#dceeff,color:#1a1a1a
+    style FEFO fill:#dceeff,color:#1a1a1a
+    style DISCOUNT fill:#ffeedd,color:#1a1a1a
     style BLOCK fill:#AA0000,color:#fff
-    style SHIP fill:#005500,color:#fff
+    style SHIP fill:#dcf0dc,color:#1a1a1a
 
 ```
 

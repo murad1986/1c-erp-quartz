@@ -157,8 +157,8 @@ flowchart TD
     H --> J[Итого сборка:<br/>14 мин 23 сек]
     I --> J
 
-    style A fill:#0055BB,color:#fff
-    style J fill:#0055BB,color:#fff
+    style A fill:#dceeff,color:#1a1a1a
+    style J fill:#dceeff,color:#1a1a1a
     style I fill:#BB2200,color:#fff
     style E fill:#BB5500,color:#fff
 ```
@@ -204,9 +204,9 @@ graph TD
     C1 --> D2["Ячейка А-01-П2<br/>(Полка 2)"]
     C1 --> D3["Ячейка А-01-П3 ... П5"]
 
-    style A fill:#0055BB,color:#fff
-    style B1 fill:#0055BB,color:#fff
-    style B2 fill:#0055BB,color:#fff
+    style A fill:#dceeff,color:#1a1a1a
+    style B1 fill:#dceeff,color:#1a1a1a
+    style B2 fill:#dceeff,color:#1a1a1a
     style B3 fill:#0033AA,color:#fff
     style D1 fill:#E8F0FA,color:#000
     style D2 fill:#E8F0FA,color:#000
@@ -429,8 +429,8 @@ flowchart LR
     J --> K
     K --> L[Клиент получает<br/>товар с максимальным<br/>остатком срока]
 
-    style A fill:#0055BB,color:#fff
-    style L fill:#0055BB,color:#fff
+    style A fill:#dceeff,color:#1a1a1a
+    style L fill:#dceeff,color:#1a1a1a
     style B fill:#BB5500,color:#fff
 ```
 
@@ -797,9 +797,9 @@ flowchart LR
 задания между бригадами"]
     ALERT -->|"Нет"| OK["Норма. Продолжаем."]
 
-    style ERP fill:#0055BB,color:#fff
-    style DASH fill:#005500,color:#fff
-    style ALERT fill:#885500,color:#fff
+    style ERP fill:#dceeff,color:#1a1a1a
+    style DASH fill:#dcf0dc,color:#1a1a1a
+    style ALERT fill:#ffeedd,color:#1a1a1a
 ```
 
 Не ежедневные отчёты, а мониторинг каждые 30 секунд. Отклонение от нормы (> 2 минут) → немедленная реакция. За первый квартал команда предотвратила 23 волны «завалов» на сортировке — до того, как они стали срывами по времени доставки.

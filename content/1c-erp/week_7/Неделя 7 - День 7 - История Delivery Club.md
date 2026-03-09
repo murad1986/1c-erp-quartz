@@ -90,8 +90,8 @@ graph TD
     A1 -.->|Одинаковый товар<br/>РАЗНЫЕ коды| B1
     A2 -.->|Одинаковый склад<br/>РАЗНЫЕ данные| B2
 
-    style Система_A fill:#003399,color:#fff
-    style Система_B fill:#660000,color:#fff
+    style Система_A fill:#dceeff,color:#1a1a1a
+    style Система_B fill:#ffe0e0,color:#1a1a1a
 ```
 
 В реальной истории DC ситуация была ещё сложнее: помимо двух основных систем, существовали промежуточные интеграционные слои, самописные системы управления даркстторами, интеграции с агрегаторными платформами. Каждый из этих узлов имел своё представление о данных.
@@ -147,7 +147,7 @@ flowchart LR
     E --> F
     F --> G[НЕОПРЕДЕЛЁННОСТЬ<br/>Ошибки закупок<br/>Ошибки отчётности]
 
-    style G fill:#cc3300,color:#fff
+    style G fill:#ffe0d0,color:#1a1a1a
     style F fill:#cc6600,color:#fff
 ```
 
@@ -181,8 +181,8 @@ flowchart TD
     H --> I
     I --> J[Обновление<br/>всех документов<br/>и регистров<br/>по новым артикулам]
 
-    style I fill:#0055BB,color:#fff
-    style J fill:#0055BB,color:#fff
+    style I fill:#dceeff,color:#1a1a1a
+    style J fill:#dceeff,color:#1a1a1a
 ```
 
 **Шаг 1: Выгрузка и первичное сопоставление.** Из обеих систем выгружаются все позиции номенклатуры с ключевыми атрибутами: штрихкод (EAN/GTIN), наименование, единица измерения, артикул поставщика. Автоматическое сопоставление по штрихкоду даёт совпадение для 50–70% позиций.
@@ -231,7 +231,7 @@ graph TD
     Conflict --> Q2[Какой системе верить<br/>при закупке?]
     Conflict --> Q3[Какие данные<br/>класть в отчёт?]
 
-    style Conflict fill:#cc3300,color:#fff
+    style Conflict fill:#ffe0d0,color:#1a1a1a
     style W fill:#1a7a1a,color:#fff
 ```
 
@@ -290,8 +290,8 @@ graph TD
     L2 -.->|Аренда ПО| L3
     L2 -.->|Управленческие услуги| L4
 
-    style H fill:#0055BB,color:#fff
-    style L2 fill:#0055BB,color:#fff
+    style H fill:#dceeff,color:#1a1a1a
+    style L2 fill:#dceeff,color:#1a1a1a
 ```
 
 ### Трансфертное ценообразование: как деньги движутся внутри группы
@@ -462,11 +462,11 @@ graph TD
     D1 -->|Нет| D2[РИСК: каждый<br/>новый канал —<br/>отдельный проект]
     E1 -->|Нет| E2[РИСК: слепые<br/>управленческие решения]
 
-    style A fill:#0055BB,color:#fff
-    style B2 fill:#cc3300,color:#fff
-    style C2 fill:#cc3300,color:#fff
-    style D2 fill:#cc3300,color:#fff
-    style E2 fill:#cc3300,color:#fff
+    style A fill:#dceeff,color:#1a1a1a
+    style B2 fill:#ffe0d0,color:#1a1a1a
+    style C2 fill:#ffe0d0,color:#1a1a1a
+    style D2 fill:#ffe0d0,color:#1a1a1a
+    style E2 fill:#ffe0d0,color:#1a1a1a
 ```
 
 Четыре вопроса для оценки ERP-готовности к росту:
@@ -602,8 +602,8 @@ graph TD
     OMS --> ERP
     ERP --> DWH
 
-    style ERP fill:#0055BB,color:#fff
-    style DWH fill:#0055BB,color:#fff
+    style ERP fill:#dceeff,color:#1a1a1a
+    style DWH fill:#dceeff,color:#1a1a1a
 ```
 
 **Ключевые принципы правильной архитектуры:**
@@ -671,7 +671,7 @@ graph LR
     D --> G[Go / No Go<br/>решение о запуске]
     E --> H[Обученная<br/>команда готова]
 
-    style A fill:#0055BB,color:#fff
+    style A fill:#dceeff,color:#1a1a1a
     style G fill:#1a7a1a,color:#fff
 ```
 
@@ -723,7 +723,7 @@ flowchart TD
     G -->|Нет| I[Корректировка<br/>данных]
     I --> F
 
-    style A fill:#0055BB,color:#fff
+    style A fill:#dceeff,color:#1a1a1a
     style H fill:#1a7a1a,color:#fff
     style I fill:#cc6600,color:#fff
 ```
@@ -801,8 +801,8 @@ flowchart TD
     K --> L[Параллельный<br/>мониторинг<br/>4-8 недель]
     L --> M[Стабильная<br/>единая система]
 
-    style A fill:#cc3300,color:#fff
-    style K fill:#0055BB,color:#fff
+    style A fill:#ffe0d0,color:#1a1a1a
+    style K fill:#dceeff,color:#1a1a1a
     style M fill:#1a7a1a,color:#fff
 ```
 

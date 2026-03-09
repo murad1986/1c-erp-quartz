@@ -46,7 +46,7 @@ graph LR
     D --> D1["Функции:<br/>AI-предсказания,<br/>автономные решения,<br/>Real-time P&L"]
 
     classDef gray fill:#888888,color:#fff,stroke:#666666
-    classDef blue fill:#0055BB,color:#fff,stroke:#003d8a
+    classDef blue fill:#dceeff,color:#1a1a1a,stroke:#003d8a
     classDef green fill:#007744,color:#fff,stroke:#005533
 ```
 
@@ -92,7 +92,7 @@ graph TD
     R7 --> OUT
     R8 --> OUT
 
-    classDef blue fill:#0055BB,color:#fff,stroke:#003d8a
+    classDef blue fill:#dceeff,color:#1a1a1a,stroke:#003d8a
     classDef reg fill:#334466,color:#fff,stroke:#223355
     classDef green fill:#007744,color:#fff,stroke:#005533
 ```
@@ -143,7 +143,7 @@ graph TD
     T3 --> T3B["Интеграция<br/>с BI-платформами"]
     T3 --> T3C["Data mesh:<br/>ERP как домен данных"]
 
-    classDef blue fill:#0055BB,color:#fff,stroke:#003d8a
+    classDef blue fill:#dceeff,color:#1a1a1a,stroke:#003d8a
     classDef ai fill:#6633BB,color:#fff,stroke:#442288
     classDef rt fill:#BB3300,color:#fff,stroke:#882200
     classDef dp fill:#007744,color:#fff,stroke:#005533
@@ -203,7 +203,7 @@ graph TD
     D --> D2["Мобильные<br/>приложения"]
     D --> D3["IoT-интеграция<br/>(датчики склада)"]
 
-    classDef blue fill:#0055BB,color:#fff,stroke:#003d8a
+    classDef blue fill:#dceeff,color:#1a1a1a,stroke:#003d8a
     classDef purple fill:#6633BB,color:#fff,stroke:#442288
     classDef gray fill:#888888,color:#fff,stroke:#666666
     classDef green fill:#007744,color:#fff,stroke:#005533
@@ -307,7 +307,7 @@ graph LR
     C --> C1["Архитектор данных<br/>Owner решений AI<br/>Stakeholder ERP-стратегии"]
 
     classDef gray fill:#888888,color:#fff,stroke:#666666
-    classDef blue fill:#0055BB,color:#fff,stroke:#003d8a
+    classDef blue fill:#dceeff,color:#1a1a1a,stroke:#003d8a
     classDef green fill:#007744,color:#fff,stroke:#005533
 ```
 
@@ -352,7 +352,7 @@ graph TD
     W8 --> CORE["СУПЕРСИЛА:<br/>ERP как скелет<br/>Q-com бизнеса"]:::green
 
     classDef w fill:#334466,color:#fff,stroke:#223355
-    classDef blue fill:#0055BB,color:#fff,stroke:#003d8a
+    classDef blue fill:#dceeff,color:#1a1a1a,stroke:#003d8a
     classDef green fill:#007744,color:#fff,stroke:#005533
 ```
 
@@ -520,7 +520,7 @@ graph LR
     L3 --> L4["Уровень 4<br/>Data Platform<br/>Architect<br/>(2-4 года)"]:::purple
 
     classDef green fill:#007744,color:#fff,stroke:#005533
-    classDef blue fill:#0055BB,color:#fff,stroke:#003d8a
+    classDef blue fill:#dceeff,color:#1a1a1a,stroke:#003d8a
     classDef purple fill:#6633BB,color:#fff,stroke:#442288
 ```
 
