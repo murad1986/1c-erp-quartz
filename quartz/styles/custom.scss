@@ -99,3 +99,136 @@ article > blockquote:first-of-type {
     max-width: 860px;
   }
 }
+
+// --- Mermaid: читаемые цвета на светлой теме ---
+.mermaid svg {
+  // Текст внутри нод и меток
+  .node text,
+  .label,
+  .edgeLabel,
+  .nodeLabel,
+  text {
+    fill: #1a1a1a !important;
+    color: #1a1a1a !important;
+  }
+
+  // Ноды flowchart — светлый фон
+  .node rect,
+  .node circle,
+  .node ellipse,
+  .node polygon,
+  .node path {
+    fill: #e8f0fa !important;
+    stroke: #0055BB !important;
+    stroke-width: 1.5px !important;
+  }
+
+  // Ноды с классом "active" / highlight
+  .node.active rect,
+  .node.highlight rect {
+    fill: #cce0ff !important;
+  }
+
+  // Subgraph заголовки
+  .cluster rect {
+    fill: #f0f5ff !important;
+    stroke: #8ab0e8 !important;
+  }
+  .cluster text {
+    fill: #003399 !important;
+  }
+
+  // Стрелки / линии
+  .edgePath .path {
+    stroke: #4477bb !important;
+    stroke-width: 1.5px !important;
+  }
+  marker path {
+    fill: #4477bb !important;
+    stroke: #4477bb !important;
+  }
+
+  // xychart-beta: оси и подписи
+  .xyChart-bar {
+    fill: #0055BB !important;
+  }
+  .xAxis .tick text,
+  .yAxis .tick text,
+  .xyChart-axisTitle {
+    fill: #1a1a1a !important;
+  }
+
+  // pie chart: текст
+  .pieTitleText,
+  .slice text,
+  .legend text {
+    fill: #1a1a1a !important;
+  }
+
+  // sequenceDiagram: акторы и сообщения
+  .actor text,
+  .messageText,
+  .loopText,
+  .noteText {
+    fill: #1a1a1a !important;
+  }
+  .actor rect,
+  .actor-top,
+  .actor-bottom {
+    fill: #d0e4ff !important;
+    stroke: #0055BB !important;
+  }
+
+  // stateDiagram: состояния
+  .stateGroup rect {
+    fill: #e8f0fa !important;
+    stroke: #0055BB !important;
+  }
+  .stateGroup text {
+    fill: #1a1a1a !important;
+  }
+}
+
+// --- Mermaid: тёмная тема ---
+[saved-theme="dark"] .mermaid svg {
+  .node text,
+  .label,
+  .edgeLabel,
+  .nodeLabel,
+  text {
+    fill: #e8e8e8 !important;
+    color: #e8e8e8 !important;
+  }
+  .node rect,
+  .node circle,
+  .node ellipse,
+  .node polygon,
+  .node path {
+    fill: #1e3a5f !important;
+    stroke: #4488dd !important;
+  }
+  .cluster rect {
+    fill: #182840 !important;
+    stroke: #3366aa !important;
+  }
+  .cluster text {
+    fill: #aaccff !important;
+  }
+  .edgePath .path {
+    stroke: #6699dd !important;
+  }
+  marker path {
+    fill: #6699dd !important;
+    stroke: #6699dd !important;
+  }
+  .actor rect {
+    fill: #1e3a5f !important;
+    stroke: #4488dd !important;
+  }
+  .actor text,
+  .messageText,
+  .loopText,
+  .noteText {
+    fill: #e8e8e8 !important;
+  }
+}

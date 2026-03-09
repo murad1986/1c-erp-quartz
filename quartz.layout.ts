@@ -45,14 +45,14 @@ export const defaultContentPageLayout: PageLayout = {
         useSavedState: true,
         sortFn: (a, b) => {
           if (a.isFolder !== b.isFolder) return a.isFolder ? -1 : 1
-          return a.displayName.localeCompare(b.displayName, "ru", {
+          return a.name.localeCompare(b.name, "ru", {
             numeric: true,
             sensitivity: "base",
           })
         },
         filterFn: (node) => {
           const hide = new Set(["tags"])
-          return !hide.has(node.displayName.toLowerCase())
+          return !hide.has(node.name.toLowerCase())
         },
       })
     ),
@@ -119,14 +119,14 @@ export const defaultListPageLayout: PageLayout = {
         useSavedState: true,
         sortFn: (a, b) => {
           if (a.isFolder !== b.isFolder) return a.isFolder ? -1 : 1
-          return a.displayName.localeCompare(b.displayName, "ru", {
+          return a.name.localeCompare(b.name, "ru", {
             numeric: true,
             sensitivity: "base",
           })
         },
         filterFn: (node) => {
           const hide = new Set(["tags"])
-          return !hide.has(node.displayName.toLowerCase())
+          return !hide.has(node.name.toLowerCase())
         },
       })
     ),
