@@ -113,3 +113,13 @@ article > blockquote:first-of-type {
     stroke-width: 1.5px;
   }
 }
+
+// base.scss задаёт p { text-wrap: pretty; overflow-wrap: break-word } глобально.
+// Это сбивает расчёт высоты нод в Mermaid (текст переносится иначе чем Mermaid ожидает).
+// Сброс только для HTML-лейблов внутри foreignObject.
+.mermaid svg foreignObject p,
+.mermaid svg foreignObject span,
+.mermaid svg foreignObject div {
+  text-wrap: normal;
+  overflow-wrap: normal;
+}
