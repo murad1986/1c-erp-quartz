@@ -280,51 +280,27 @@ document.addEventListener("nav", async () => {
 
     await mermaid.run({ nodes })
 
-    // Post-render fix: Mermaid measures labels at full page width (no wrap).
-    // In a narrow SVG foreignObject the same text wraps → needs more height.
-    // Also: if the serif font from base.scss makes text wider than measured,
-    // the foreignObject is too narrow → text wraps unexpectedly.
-    // Fix both width and height by measuring with white-space:nowrap then restoring.
+    // Post-render fix: width is handled by CSS (max-content on inner div +
+    // overflow:visible on foreignObject). Only height correction needed:
+    // Mermaid measures at full page width → no wrapping → calculates N lines.
+    // Text that DID wrap in narrow SVG needs extra height.
     for (const node of Array.from(nodes)) {
       for (const fo of Array.from(node.querySelectorAll("foreignObject"))) {
         const inner = fo.firstElementChild as HTMLElement | null
         if (!inner) continue
-
-        // Measure natural (unwrapped) width
-        const prevWS = inner.style.whiteSpace
-        inner.style.whiteSpace = "nowrap"
-        const naturalWidth = inner.scrollWidth
-        inner.style.whiteSpace = prevWS
-
-        const declaredW = parseFloat(fo.getAttribute("width") ?? "0")
-        if (naturalWidth > declaredW) {
-          const wdiff = naturalWidth - declaredW
-          fo.setAttribute("width", String(naturalWidth))
-          const x = parseFloat(fo.getAttribute("x") ?? "0")
-          fo.setAttribute("x", String(x - wdiff / 2))
-          const rect = fo.closest("g")?.querySelector("rect") as SVGRectElement | null
-          if (rect) {
-            const rw = parseFloat(rect.getAttribute("width") ?? "0")
-            rect.setAttribute("width", String(rw + wdiff))
-            const rx = parseFloat(rect.getAttribute("x") ?? "0")
-            rect.setAttribute("x", String(rx - wdiff / 2))
-          }
-        }
-
-        // After width is correct, measure actual rendered height
         const renderedH = inner.scrollHeight
         const declaredH = parseFloat(fo.getAttribute("height") ?? "0")
         if (renderedH > declaredH) {
-          const hdiff = renderedH - declaredH
+          const diff = renderedH - declaredH
           fo.setAttribute("height", String(renderedH))
           const y = parseFloat(fo.getAttribute("y") ?? "0")
-          fo.setAttribute("y", String(y - hdiff / 2))
-          const rect2 = fo.closest("g")?.querySelector("rect") as SVGRectElement | null
-          if (rect2) {
-            const rh = parseFloat(rect2.getAttribute("height") ?? "0")
-            rect2.setAttribute("height", String(rh + hdiff))
-            const ry = parseFloat(rect2.getAttribute("y") ?? "0")
-            rect2.setAttribute("y", String(ry - hdiff / 2))
+          fo.setAttribute("y", String(y - diff / 2))
+          const rect = fo.closest("g")?.querySelector("rect") as SVGRectElement | null
+          if (rect) {
+            const rh = parseFloat(rect.getAttribute("height") ?? "0")
+            rect.setAttribute("height", String(rh + diff))
+            const ry = parseFloat(rect.getAttribute("y") ?? "0")
+            rect.setAttribute("y", String(ry - diff / 2))
           }
         }
       }

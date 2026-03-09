@@ -128,11 +128,18 @@ code.mermaid svg * {
   stroke-width: 1.5px;
 }
 
-// --- Mermaid foreignObject: сброс шрифта ---
-// base.scss задаёт serif-шрифт через article p {}, но Mermaid измеряет размер
-// лейблов ВНЕ article (temp-элемент в body) — system-ui/sans-serif.
-// Рассогласование: serif шире → текст не влезает в рассчитанный бокс.
-// Фиксируем тот же шрифт что в mermaid.inline.ts themeVariables.
+// --- Mermaid foreignObject: фикс переноса текста ---
+// Mermaid ставит фиксированную ширину на .nodeLabel div → текст переносится
+// даже если foreignObject достаточно широк.
+// width: max-content снимает ограничение; overflow: visible делает
+// весь контент видимым даже если он шире foreignObject.
+.mermaid svg foreignObject {
+  overflow: visible !important;
+}
+.mermaid svg foreignObject > div {
+  width: max-content !important;
+}
+// Сброс шрифта к тому что Mermaid использует при измерении (body-level, sans-serif).
 .mermaid svg foreignObject p,
 .mermaid svg foreignObject div,
 .mermaid svg foreignObject span {
@@ -141,4 +148,5 @@ code.mermaid svg * {
   margin: 0 !important;
   padding: 0 !important;
   line-height: 1.4 !important;
+  text-align: center !important;
 }
