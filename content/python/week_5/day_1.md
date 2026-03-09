@@ -14,7 +14,7 @@ tags:
   - functions
   - def
   - return
-  - DRY
+  - dry
 status: draft
 ---
 

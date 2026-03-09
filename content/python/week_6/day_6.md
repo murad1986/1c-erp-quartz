@@ -6,7 +6,7 @@ day: 6
 title: "Практика — надёжная система сейвов"
 concepts: []
 prerequisites: "[\"[[week_6/day_5]]\"]"
-tags: [python, ошибки, практика, проект, RPG]
+tags: [python, ошибки, практика, проект, rpg]
 status: draft
 ---
 

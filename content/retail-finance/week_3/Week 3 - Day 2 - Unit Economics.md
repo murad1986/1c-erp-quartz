@@ -4,7 +4,7 @@ course: "[[retail_finance/README]]"
 week: 3
 day: 2
 prerequisites: "[\"[[Week 3 - Day 1 - LFL analysis|День 1: LFL Анализ]]\"]"
-tags: [finance, retail, unit-economics, CAC, LTV, payback, cohort-analysis, D2C]
+tags: [finance, retail, unit-economics, cac, ltv, payback, cohort-analysis, d2c]
 status: published
 ---
 

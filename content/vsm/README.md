@@ -1,7 +1,7 @@
 ---
 type: direction
 status: planned
-tags: [direction, lean, VSM, manufacturing, process-improvement, operations]
+tags: [direction, lean, vsm, manufacturing, process-improvement, operations]
 duration: "6 недель (42 урока)"
 level: "От основ Lean до мастерства VSM и трансформации процессов"
 ---

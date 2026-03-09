@@ -4,7 +4,7 @@ course: "[[retail_finance/README]]"
 week: 3
 day: 5
 prerequisites: "[\"[[Week 3 - Day 4 - Capex vs Opex|Day 4: Capex против Opex]]\"]"
-tags: [finance, retail, kpi, staff, productivity, SPH, LPC, best-buy, costco, good-jobs-strategy]
+tags: [finance, retail, kpi, staff, productivity, sph, lpc, best-buy, costco, good-jobs-strategy]
 status: final
 ---
 

@@ -2,7 +2,7 @@
 type: direction
 status: active
 aliases: ["Retail Finance"]
-tags: [direction, finance, retail, learning-path, P&L, TOC]
+tags: [direction, finance, retail, learning-path, p&l, toc]
 duration: "6 недель (42 урока)"
 level: "С нуля до уверенного чтения и построения финансовых моделей"
 ---

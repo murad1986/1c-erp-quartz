@@ -4,7 +4,7 @@ course: "[[retail_finance/README]]"
 week: 3
 day: 1
 prerequisites: ["[[Week 2 - Day 7 - Rest]]"]
-tags: [retail-finance, unit-economics, LFL, same-store-sales, organic-growth, week3]
+tags: [retail-finance, unit-economics, lfl, same-store-sales, organic-growth, week3]
 status: draft
 ---
 

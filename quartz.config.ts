@@ -72,7 +72,7 @@ const config: QuartzConfig = {
         theme: { light: "github-light", dark: "github-dark" },
         keepBackground: false,
       }),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
+      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false, parseTags: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents({ maxDepth: 3, minEntries: 2, showByDefault: true }),
       Plugin.CrawlLinks({

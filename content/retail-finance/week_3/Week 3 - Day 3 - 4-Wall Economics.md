@@ -4,7 +4,7 @@ course: "[[retail_finance/README]]"
 week: 3
 day: 3
 prerequisites: "[\"[[Week 3 - Day 2 - Unit Economics|День 2: Юнит-экономика]]\"]"
-tags: [finance, retail, 4-wall, EBITDA, store-pl, halo-effect, lululemon, circuit-city]
+tags: [finance, retail, 4-wall, ebitda, store-pl, halo-effect, lululemon, circuit-city]
 status: published
 ---
 

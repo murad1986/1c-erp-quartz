@@ -4,7 +4,7 @@ course: "[[value_stream_mapping/README]]"
 week: 1
 day: 1
 prerequisites: []
-tags: [lean, VSM, waste, Toyota, TPS, psychology, blindness]
+tags: [lean, vsm, waste, toyota, tps, psychology, blindness]
 status: published
 ---
 
