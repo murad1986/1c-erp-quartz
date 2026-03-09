@@ -128,7 +128,17 @@ code.mermaid svg * {
   stroke-width: 1.5px;
 }
 
-// Не трогаем text-wrap / white-space / overflow-wrap в foreignObject:
-// Mermaid измеряет текст В DOM (CSS применяется), поэтому измерение и рендер
-// должны использовать одни и те же правила. Любое CSS-переопределение здесь
-// создаёт рассогласование → либо перенос в неожиданных местах, либо обрезание.
+// --- Mermaid foreignObject: сброс шрифта ---
+// base.scss задаёт serif-шрифт через article p {}, но Mermaid измеряет размер
+// лейблов ВНЕ article (temp-элемент в body) — system-ui/sans-serif.
+// Рассогласование: serif шире → текст не влезает в рассчитанный бокс.
+// Фиксируем тот же шрифт что в mermaid.inline.ts themeVariables.
+.mermaid svg foreignObject p,
+.mermaid svg foreignObject div,
+.mermaid svg foreignObject span {
+  font-family: ui-sans-serif, system-ui, -apple-system, sans-serif !important;
+  font-size: 14px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.4 !important;
+}
